@@ -1,7 +1,8 @@
 "use client";
 
-// components/ImageSlider.js
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
+import logomain from "../../assets/logomain.svg";
 import styles from "./ImageSlider.module.css";
 
 const images = ["image1.jpeg", "image2.jpeg", "image3.jpeg", "image4.jpeg"];
@@ -52,6 +53,15 @@ const ImageSlider = () => {
             onClick={() => handleDotClick(index)}
           ></div>
         ))}
+      </div>
+      <div className={styles.logoWrapper}>
+        <Image
+          className={styles.logo}
+          src={logomain}
+          alt="logotyp"
+          width="auto"
+          height="auto"
+        />
       </div>
     </div>
   );
