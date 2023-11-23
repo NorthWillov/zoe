@@ -53,12 +53,14 @@
     width: 250px;
     height: auto;
   }
+
   .dotsContainer {
     flex-direction: row;
     top: 70%;
     left: 50%;
     transform: translateX(-50%);
   }
+
   .dot {
     margin: 0 5px;
   }
