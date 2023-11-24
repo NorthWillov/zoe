@@ -20,7 +20,7 @@
 
 .dotsContainer {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 70px;
   transform: translateY(-50%);
   display: flex;
@@ -43,19 +43,133 @@
 
 .logoWrapper {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.icons {
+  position: absolute;
+  top: 48%;
+  right: 70px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconWrapper {
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 246px;
+  opacity: 0.8;
+  background-color: #1c1c1c;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.contentTitle {
+  width: 50%;
+  text-align: center;
+  font-size: 46px;
+  text-transform: uppercase;
+}
+
+.contentTextWrapper {
+  width: 50%;
+}
+
+.contentText {
+  width: 70%;
+  font-weight: 300;
+  line-height: 14.4px;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .contentText {
+    width: 90%;
+  }
+  .contentTitle {
+    font-size: 40px;
+  }
+  .content {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .iconWrapper {
+    transition: transform 0.3s ease-in-out;
+  }
+  .iconWrapper:hover {
+    transform: scale(120%);
+  }
+}
+
 @media (max-width: 960px) {
   .logo {
-    width: 250px;
+    width: 130px;
     height: auto;
   }
 
   .dot {
     width: 7px;
     height: 7px;
+  }
+
+  .dotsContainer {
+    left: 20px;
+  }
+
+  .icons {
+    top: 32%;
+    right: 40px;
+    transform: translateX(50%);
+  }
+
+  .iconWrapper img {
+    margin-bottom: -20px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .iconWrapper:nth-child(3) img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .iconWrapper:nth-child(4) img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .content {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 250px;
+  }
+
+  .contentText {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contentTextWrapper {
+    width: 95%;
+  }
+
+  .contentTitle {
+    font-size: 30px;
+    padding: 20px 0;
+    width: 100%;
   }
 }
