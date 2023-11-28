@@ -1,0 +1,15 @@
+<svg width="131" height="36" viewBox="0 0 131 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Tryb_izolacji" clip-path="url(#clip0_1045_105)">
+<path id="Vector" d="M0 0.30957V34.5696L34.64 0.30957H0Z" fill="white"/>
+<path id="Vector_2" d="M40.7103 34.9602V0.700195L6.07031 34.9602H40.7103Z" fill="white"/>
+<path id="Vector_3" d="M65.6581 35.16C75.3673 35.16 83.2381 27.2892 83.2381 17.58C83.2381 7.87083 75.3673 0 65.6581 0C55.949 0 48.0781 7.87083 48.0781 17.58C48.0781 27.2892 55.949 35.16 65.6581 35.16Z" fill="white"/>
+<path id="Vector_4" d="M130.103 0.320312H90.4531V9.17031H130.103V0.320312Z" fill="white"/>
+<path id="Vector_5" d="M130.103 26.1104H90.4531V34.9604H130.103V26.1104Z" fill="white"/>
+<path id="Vector_6" d="M130.103 13.0195H90.4531V22.2595H130.103V13.0195Z" fill="white"/>
+</g>
+<defs>
+<clipPath id="clip0_1045_105">
+<rect width="130.1" height="35.16" fill="white"/>
+</clipPath>
+</defs>
+</svg>

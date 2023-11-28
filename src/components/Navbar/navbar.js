@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import logo from "../../assets/logomain.svg";
+import logo from "../../assets/logonav.svg";
 import ScrollLink from "../ScrollLink";
 import Image from "next/image";
 import Link from "next/link";
@@ -47,6 +47,12 @@ const Navbar = () => {
             height="auto"
           />
         </Link>
+        <div className={styles.logoText}>
+          <span>Lorem ipsum</span>
+          <span>
+            <strong>Lorem ipsum</strong>
+          </span>
+        </div>
       </div>
       <div className={styles.icon} onClick={handleClick}>
         <i
