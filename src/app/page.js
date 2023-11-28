@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import Navbar from "@/components/Navbar/navbar";
 import About from "@/components/About/about";
+import Meetings from "@/components/Meetings/meetings";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <ImageSlider />
       <About />
+      <Meetings />
     </main>
   );
 }
