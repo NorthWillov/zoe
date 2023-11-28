@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar/navbar";
 import About from "@/components/About/about";
 import Meetings from "@/components/Meetings/meetings";
 import Logoline from "@/components/LogoLine/logoline";
+import Courses from "@/components/Courses/courses";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       <About />
       <Logoline />
       <Meetings />
+      <Logoline />
+      <Courses />
       <Logoline />
     </main>
   );
