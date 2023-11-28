@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+
 import logogrey from "../../assets/logogrey.svg";
 import styles from "./about.module.css";
 import Logoline from "../LogoLine/logoline";
@@ -9,7 +10,7 @@ import Logoline from "../LogoLine/logoline";
 function About() {
   return (
     <section className={styles.about}>
-      <div className={styles.main}>
+      <div className={styles.main} data-testid={"wyznanie"} id="wyznanie">
         <div
           className={`${styles.content} ${styles.contentLarge} ${styles.contentFirstMobile}`}
         >
@@ -54,7 +55,7 @@ function About() {
 
       <Logoline />
 
-      <div className={styles.main}>
+      <div className={styles.main} data-testid={"zbawienie"} id="zbawienie">
         <div className={styles.imageSecond}></div>
         <div
           className={`${styles.content} ${styles.textRight} ${styles.contentSmall} ${styles.contentSecondMobile}`}
@@ -99,7 +100,7 @@ function About() {
 
       <Logoline />
 
-      <div className={styles.main}>
+      <div className={styles.main} data-testid={"corobimy"} id="corobimy">
         <div
           className={`${styles.content} ${styles.contentLarge} ${styles.contentThirdMobile}`}
         >

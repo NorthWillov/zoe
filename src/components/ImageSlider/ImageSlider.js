@@ -11,7 +11,7 @@ import styles from "./ImageSlider.module.css";
 
 const images = ["image1.jpeg", "image2.jpeg", "image3.jpeg", "image4.jpeg"];
 
-const ImageSlider = () => {
+const ImageSlider = ({ titleBold, titleLight, description }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -61,7 +61,7 @@ const ImageSlider = () => {
       <div className={styles.icons}>
         <div className={styles.iconWrapper}>
           <Image
-            className={styles.logo}
+            className={`${styles.logo} ${styles.animated}`}
             style={{ marginBottom: "-20px" }}
             src={heart}
             alt="serce"
@@ -100,7 +100,9 @@ const ImageSlider = () => {
         </div>
       </div>
       <div className={styles.content}>
-        <h1 className={styles.contentTitle}>Lorem ipsum! Lorem</h1>
+        <h1 className={styles.contentTitle}>
+          <strong>{titleBold}</strong> {titleLight}
+        </h1>
         <div className={styles.contentTextWrapper}>
           <p className={styles.contentText}>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam

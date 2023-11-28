@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from "react";
 import logo from "../../assets/logonav.svg";
 import ScrollLink from "../ScrollLink";
 import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
 import Link from "next/link";
 import styles from "./navbar.module.css";
 
@@ -14,6 +15,26 @@ const Navbar = () => {
 
   const dropdownRef1 = useRef(null);
   const dropdownRef2 = useRef(null);
+
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const handleLinkClick = (to) => {
+    // Check if the current page is not the root page
+    if (pathname !== "/") {
+      // Navigate to the root page
+      router.push("/", undefined, { shallow: true });
+    }
+
+    // Scroll to the specified section
+    setTimeout(() => {
+      const element = document.getElementById(to);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 100);
+    handleClick();
+  };
 
   const handleClick = () => {
     setActive(!active);
@@ -93,15 +114,31 @@ const Navbar = () => {
               isDropdown1Open ? styles.activeDropdown : ""
             }`}
           >
-            <ScrollLink onClick={handleClick} to="features">
-              Wyznanie wiary
-            </ScrollLink>
-            <ScrollLink onClick={handleClick} to="features">
-              Modlitwa zbawienie
-            </ScrollLink>
-            <ScrollLink onClick={handleClick} to="features">
-              Co robimy
-            </ScrollLink>
+            {pathname === "/" ? (
+              <>
+                <ScrollLink onClick={handleClick} to="wyznanie">
+                  Wyznanie wiary
+                </ScrollLink>
+                <ScrollLink onClick={handleClick} to="zbawienie">
+                  Modlitwa zbawienie
+                </ScrollLink>
+                <ScrollLink onClick={handleClick} to="corobimy">
+                  Co robimy
+                </ScrollLink>
+              </>
+            ) : (
+              <>
+                <a href="#" onClick={() => handleLinkClick("wyznanie")}>
+                  Wyznanie wiary
+                </a>
+                <a href="#" onClick={() => handleLinkClick("zbawienie")}>
+                  Modlitwa zbawienie
+                </a>
+                <a href="#" onClick={() => handleLinkClick("corobimy")}>
+                  Co robimy
+                </a>
+              </>
+            )}
           </div>
         </li>
         <li
@@ -122,27 +159,27 @@ const Navbar = () => {
               isDropdown2Open ? styles.activeDropdown : ""
             }`}
           >
-            <ScrollLink onClick={handleClick} to="features">
+            <Link onClick={handleClick} href="niedziela">
               Niedziela
-            </ScrollLink>
-            <ScrollLink onClick={handleClick} to="features">
+            </Link>
+            <Link onClick={handleClick} href="sroda">
               Środa
-            </ScrollLink>
-            <ScrollLink onClick={handleClick} to="features">
+            </Link>
+            <Link onClick={handleClick} href="dzieci">
               Dzieci
-            </ScrollLink>
-            <ScrollLink onClick={handleClick} to="features">
+            </Link>
+            <Link onClick={handleClick} href="mlodziez">
               Młodzież
-            </ScrollLink>
-            <ScrollLink onClick={handleClick} to="features">
+            </Link>
+            <Link onClick={handleClick} href="meskie">
               Męskie
-            </ScrollLink>
-            <ScrollLink onClick={handleClick} to="features">
+            </Link>
+            <Link onClick={handleClick} href="zenskie">
               Żeńskie
-            </ScrollLink>
-            <ScrollLink onClick={handleClick} to="features">
+            </Link>
+            <Link onClick={handleClick} href="wydarzenia">
               Wydarzenia
-            </ScrollLink>
+            </Link>
           </div>
         </li>
         <li>
@@ -158,6 +195,11 @@ const Navbar = () => {
         <li>
           <ScrollLink onClick={handleClick} to="contact">
             Kontakt
+          </ScrollLink>
+        </li>
+        <li>
+          <ScrollLink onClick={handleClick} to="contact">
+            Wsparcie
           </ScrollLink>
         </li>
       </ul>

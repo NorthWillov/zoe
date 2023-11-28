@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Navbar />
-      <ImageSlider />
+      <ImageSlider titleBold={"Lorem ipsum!"} titleLight={"Lorem"} />
       <Logoline />
       <About />
       <Logoline />
