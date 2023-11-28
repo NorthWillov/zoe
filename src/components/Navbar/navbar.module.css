@@ -1,9 +1,11 @@
 .navBar {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   position: fixed;
+  padding: 0 4%;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 3000;
   height: 100px;
@@ -125,12 +127,10 @@
 @media only screen and (max-width: 960px) {
   .navBar {
     height: 80px;
-    justify-content: space-between;
   }
   .logo {
     width: 150px;
     height: auto;
-    margin-left: 20px;
   }
   .icon {
     display: block;
@@ -149,6 +149,7 @@
     text-align: center;
     z-index: 0;
     top: 64px;
+    left: 0;
     background-color: #1c1c1c;
     width: 100%;
     padding: 20px 0 20px 0;

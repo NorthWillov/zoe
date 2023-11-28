@@ -1,0 +1,22 @@
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.logoWrapper {
+  height: 100px;
+  background-color: #1c1c1c;
+  display: flex;
+  align-items: center;
+  padding-left: 4%;
+}
+
+@media only screen and (max-width: 960px) {
+  .logoWrapper {
+    height: 80px;
+  }
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+}

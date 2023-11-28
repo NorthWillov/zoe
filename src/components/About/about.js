@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import logogrey from "../../assets/logogrey.svg";
 import styles from "./about.module.css";
+import Logoline from "../LogoLine/logoline";
 
 function About() {
   return (
@@ -51,6 +52,8 @@ function About() {
         <div className={styles.imageFirst}></div>
       </div>
 
+      <Logoline />
+
       <div className={styles.main}>
         <div className={styles.imageSecond}></div>
         <div
@@ -93,6 +96,8 @@ function About() {
           </div>
         </div>
       </div>
+
+      <Logoline />
 
       <div className={styles.main}>
         <div
