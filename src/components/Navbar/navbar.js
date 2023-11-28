@@ -10,20 +10,28 @@ import styles from "./navbar.module.css";
 const Navbar = () => {
   const [active, setActive] = useState(false);
   const [isDropdown1Open, setIsDropdown1Open] = useState(false);
+  const [isDropdown2Open, setIsDropdown2Open] = useState(false);
 
-  const dropdownRef = useRef(null);
+  const dropdownRef1 = useRef(null);
+  const dropdownRef2 = useRef(null);
 
   const handleClick = () => {
     setActive(!active);
   };
 
-  const toggleDropdown = () => {
+  const toggleDropdown1 = () => {
     setIsDropdown1Open(!isDropdown1Open);
+  };
+  const toggleDropdown2 = () => {
+    setIsDropdown2Open(!isDropdown2Open);
   };
 
   const closeDropdown = (event) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+    if (dropdownRef1.current && !dropdownRef1.current.contains(event.target)) {
       setIsDropdown1Open(false);
+    }
+    if (dropdownRef2.current && !dropdownRef2.current.contains(event.target)) {
+      setIsDropdown2Open(false);
     }
   };
 
@@ -68,11 +76,15 @@ const Navbar = () => {
         className={`${styles.navBarMenu} ${active && styles.navBarMenuActive}`}
       >
         <li
-          ref={dropdownRef}
-          onClick={toggleDropdown}
+          ref={dropdownRef1}
+          onClick={toggleDropdown1}
           className={styles.dropdown}
         >
-          <span className={styles.dropdownBtn}>
+          <span
+            className={`${styles.dropdownBtn} ${
+              isDropdown1Open ? styles.dropdownBtnActive : ""
+            }`}
+          >
             O kościele
             <i className="fa-solid fa-chevron-down" />
           </span>
@@ -92,10 +104,46 @@ const Navbar = () => {
             </ScrollLink>
           </div>
         </li>
-        <li>
-          <ScrollLink onClick={handleClick} to="features">
+        <li
+          ref={dropdownRef2}
+          onClick={toggleDropdown2}
+          className={styles.dropdown}
+        >
+          <span
+            className={`${styles.dropdownBtn} ${
+              isDropdown2Open ? styles.dropdownBtnActive : ""
+            }`}
+          >
             Spotkania
-          </ScrollLink>
+            <i className="fa-solid fa-chevron-down" />
+          </span>
+          <div
+            className={`${styles.dropdownContent} ${
+              isDropdown2Open ? styles.activeDropdown : ""
+            }`}
+          >
+            <ScrollLink onClick={handleClick} to="features">
+              Niedziela
+            </ScrollLink>
+            <ScrollLink onClick={handleClick} to="features">
+              Środa
+            </ScrollLink>
+            <ScrollLink onClick={handleClick} to="features">
+              Dzieci
+            </ScrollLink>
+            <ScrollLink onClick={handleClick} to="features">
+              Młodzież
+            </ScrollLink>
+            <ScrollLink onClick={handleClick} to="features">
+              Męskie
+            </ScrollLink>
+            <ScrollLink onClick={handleClick} to="features">
+              Żeńskie
+            </ScrollLink>
+            <ScrollLink onClick={handleClick} to="features">
+              Wydarzenia
+            </ScrollLink>
+          </div>
         </li>
         <li>
           <ScrollLink onClick={handleClick} to="roadmap">
