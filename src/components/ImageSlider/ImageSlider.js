@@ -8,6 +8,7 @@ import messenger from "../../assets/messenger.svg";
 import youtube from "../../assets/youtube.svg";
 import tbngo from "../../assets/tbngo.svg";
 import styles from "./ImageSlider.module.css";
+import Link from "next/link";
 
 const ImageSlider = ({ images = [], titleBold, titleLight, description }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -62,14 +63,16 @@ const ImageSlider = ({ images = [], titleBold, titleLight, description }) => {
 
       <div className={styles.icons}>
         <div className={styles.iconWrapper}>
-          <Image
-            className={`${styles.logo} ${styles.animated}`}
-            style={{ marginBottom: "-20px" }}
-            src={heart}
-            alt="serce"
-            width="100"
-            height="100"
-          />
+          <Link href={"wsparcie"}>
+            <Image
+              className={`${styles.logo} ${styles.animated}`}
+              style={{ marginBottom: "-20px" }}
+              src={heart}
+              alt="serce"
+              width="100"
+              height="100"
+            />
+          </Link>
         </div>
         <div className={styles.iconWrapper}>
           <Image

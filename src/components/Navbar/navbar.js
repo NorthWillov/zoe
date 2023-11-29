@@ -198,9 +198,9 @@ const Navbar = () => {
           </ScrollLink>
         </li>
         <li>
-          <ScrollLink onClick={handleClick} to="contact">
+          <Link onClick={handleClick} href="wsparcie">
             Wsparcie
-          </ScrollLink>
+          </Link>
         </li>
       </ul>
     </nav>
