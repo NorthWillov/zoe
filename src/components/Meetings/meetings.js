@@ -35,7 +35,7 @@ function Meetings() {
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.sundayImage}`}></div>
+        <div className={`${styles.image} ${styles.sundayImage}`}>SOME PICTURE</div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -63,7 +63,7 @@ function Meetings() {
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.wednesdayImage}`}></div>
+        <div className={`${styles.image} ${styles.wednesdayImage}`}>SOME PICTURE</div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -91,7 +91,7 @@ function Meetings() {
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.childrenImage}`}></div>
+        <div className={`${styles.image} ${styles.childrenImage}`}>SOME PICTURE</div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -119,7 +119,7 @@ function Meetings() {
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.youngImage}`}></div>
+        <div className={`${styles.image} ${styles.youngImage}`}>SOME PICTURE</div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -147,7 +147,7 @@ function Meetings() {
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.menImage}`}></div>
+        <div className={`${styles.image} ${styles.menImage}`}>SOME PICTURE</div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -175,7 +175,7 @@ function Meetings() {
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.womenImage}`}></div>
+        <div className={`${styles.image} ${styles.womenImage}`}>SOME PICTURE</div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -203,7 +203,7 @@ function Meetings() {
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.eventImage}`}></div>
+        <div className={`${styles.image} ${styles.eventImage}`}>SOME PICTURE</div>
       </div>
     </section>
   );
