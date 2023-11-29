@@ -88,7 +88,9 @@ const ImageSlider = ({ images = [], titleBold, titleLight, description }) => {
           <YoutubeIcon />
         </div>
         <div style={{ marginBottom: "-20px" }} className={styles.iconWrapper}>
-          <TbngoIcon />
+          <a href="https://tbngo.pl" target="_blank">
+            <TbngoIcon />
+          </a>
         </div>
       </div>
       <div className={styles.content}>
