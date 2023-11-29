@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import logomain from "../../assets/logomain.svg";
 import heart from "../../assets/heart.svg";
@@ -12,6 +13,8 @@ import Link from "next/link";
 
 const ImageSlider = ({ images = [], titleBold, titleLight, description }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  const pathname = usePathname();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -62,18 +65,21 @@ const ImageSlider = ({ images = [], titleBold, titleLight, description }) => {
       )}
 
       <div className={styles.icons}>
-        <div className={styles.iconWrapper}>
-          <Link href={"wsparcie"}>
-            <Image
-              className={`${styles.logo} ${styles.animated}`}
-              style={{ marginBottom: "-20px" }}
-              src={heart}
-              alt="serce"
-              width="100"
-              height="100"
-            />
-          </Link>
-        </div>
+        {pathname !== "/wsparcie" && (
+          <div className={styles.iconWrapper}>
+            <Link href={"wsparcie"}>
+              <Image
+                className={`${styles.logo} ${styles.animated}`}
+                style={{ marginBottom: "-20px" }}
+                src={heart}
+                alt="serce"
+                width="100"
+                height="100"
+              />
+            </Link>
+          </div>
+        )}
+
         <div className={styles.iconWrapper}>
           <Image
             className={styles.logo}

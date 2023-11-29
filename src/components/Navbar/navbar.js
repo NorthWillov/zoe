@@ -182,16 +182,35 @@ const Navbar = () => {
             </Link>
           </div>
         </li>
-        <li>
-          <ScrollLink onClick={handleClick} to="roadmap">
-            Kursy
-          </ScrollLink>
-        </li>
-        <li>
-          <ScrollLink onClick={handleClick} to="contact">
-            Grupy Domowe
-          </ScrollLink>
-        </li>
+
+        {pathname === "/" ? (
+          <>
+            <li>
+              <ScrollLink onClick={handleClick} to="courses">
+                Kursy
+              </ScrollLink>
+            </li>
+            <li>
+              <ScrollLink onClick={handleClick} to="groups">
+                Grupy Domowe
+              </ScrollLink>
+            </li>
+          </>
+        ) : (
+          <>
+            <li>
+              <a href="#" onClick={() => handleLinkClick("courses")}>
+                Kursy
+              </a>
+            </li>
+            <li>
+              <a href="#" onClick={() => handleLinkClick("groups")}>
+                Grupy Domowe
+              </a>
+            </li>
+          </>
+        )}
+
         <li>
           <ScrollLink onClick={handleClick} to="contact">
             Kontakt

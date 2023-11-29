@@ -5,7 +5,7 @@ import styles from "./courses.module.css";
 
 function Courses() {
   return (
-    <section className={styles.main}>
+    <section className={styles.main} data-testid={"courses"} id="courses">
       <div className={styles.alfaWrapper}>
         <Image
           className={styles.alfa}

@@ -3,7 +3,7 @@ import styles from "./groups.module.css";
 
 function Groups(props) {
   return (
-    <section className={styles.main}>
+    <section className={styles.main} data-testid={"groups"} id="groups">
       <div className={styles.mainGroups}>
         <h2 className={styles.title}>
           Grupy <strong>Domowe</strong>
