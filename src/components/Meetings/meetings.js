@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import styles from "./meetings.module.css";
 
 function Meetings() {
@@ -29,9 +30,9 @@ function Meetings() {
               dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
-            <a href="#" className={styles.btn}>
+            <Link href="niedziela" className={styles.btn}>
               lorem
-            </a>
+            </Link>
           </div>
         </div>
         <div className={`${styles.image} ${styles.sundayImage}`}></div>
@@ -57,9 +58,9 @@ function Meetings() {
               dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
-            <a href="#" className={styles.btn}>
+            <Link href="sroda" className={styles.btn}>
               lorem
-            </a>
+            </Link>
           </div>
         </div>
         <div className={`${styles.image} ${styles.wednesdayImage}`}></div>
@@ -85,9 +86,9 @@ function Meetings() {
               dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
-            <a href="#" className={styles.btn}>
+            <Link href="dzieci" className={styles.btn}>
               lorem
-            </a>
+            </Link>
           </div>
         </div>
         <div className={`${styles.image} ${styles.childrenImage}`}></div>
@@ -113,9 +114,9 @@ function Meetings() {
               dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
-            <a href="#" className={styles.btn}>
+            <Link href="mlodziez" className={styles.btn}>
               lorem
-            </a>
+            </Link>
           </div>
         </div>
         <div className={`${styles.image} ${styles.youngImage}`}></div>
@@ -141,9 +142,9 @@ function Meetings() {
               dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
-            <a href="#" className={styles.btn}>
+            <Link href="meskie" className={styles.btn}>
               lorem
-            </a>
+            </Link>
           </div>
         </div>
         <div className={`${styles.image} ${styles.menImage}`}></div>
@@ -169,9 +170,9 @@ function Meetings() {
               dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
-            <a href="#" className={styles.btn}>
+            <Link href="zenskie" className={styles.btn}>
               lorem
-            </a>
+            </Link>
           </div>
         </div>
         <div className={`${styles.image} ${styles.womenImage}`}></div>
@@ -197,9 +198,9 @@ function Meetings() {
               dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
-            <a href="#" className={styles.btn}>
+            <Link href="wydarzenia" className={styles.btn}>
               lorem
-            </a>
+            </Link>
           </div>
         </div>
         <div className={`${styles.image} ${styles.eventImage}`}></div>
