@@ -2,3 +2,8 @@
   background-color: #000;
   color: #fff;
 }
+
+.desc {
+  height: 100vh;
+  background-color: grey;
+}

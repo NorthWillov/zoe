@@ -1,0 +1,58 @@
+import React from "react";
+
+function HeartIcon(props) {
+  return (
+    <svg
+      width="100"
+      height="100"
+      viewBox="0 0 119 114"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g id="Vector" filter="url(#filter0_d_1045_130)">
+        <path
+          d="M75.21 49.7843C69.2 49.7843 64.31 54.6643 64.31 60.6843C64.31 66.7043 69.19 71.5843 75.21 71.5843C81.23 71.5843 86.11 66.7043 86.11 60.6843C86.11 54.6643 81.23 49.7843 75.21 49.7843ZM81.26 61.8943H76.42V66.7343H74V61.8943H69.16V59.4743H74V54.6343H76.42V59.4743H81.26V61.8943ZM65.46 73.0143C62.78 75.6443 59.95 78.3843 57.05 81.2643C41.48 65.8143 28 54.2743 28 42.9943C28 26.6043 49.43 22.7843 57.05 35.8643C64.62 22.8843 86.1 26.5443 86.1 42.9943C86.1 44.8043 85.72 46.6143 85.08 48.4543C82.38 46.2743 78.94 44.9543 75.21 44.9543C66.53 44.9543 59.47 52.0143 59.47 60.6943C59.47 65.6943 61.82 70.1443 65.46 73.0243V73.0143Z"
+          fill="#F9CAD1"
+        />
+      </g>
+      <defs>
+        <filter
+          id="filter0_d_1045_130"
+          x="0"
+          y="0"
+          width="118.109"
+          height="113.265"
+          filterUnits="userSpaceOnUse"
+          color-interpolation-filters="sRGB"
+        >
+          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feColorMatrix
+            in="SourceAlpha"
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+            result="hardAlpha"
+          />
+          <feOffset dx="2" dy="2" />
+          <feGaussianBlur stdDeviation="15" />
+          <feColorMatrix
+            type="matrix"
+            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
+          />
+          <feBlend
+            mode="normal"
+            in2="BackgroundImageFix"
+            result="effect1_dropShadow_1045_130"
+          />
+          <feBlend
+            mode="normal"
+            in="SourceGraphic"
+            in2="effect1_dropShadow_1045_130"
+            result="shape"
+          />
+        </filter>
+      </defs>
+    </svg>
+  );
+}
+
+export default HeartIcon;

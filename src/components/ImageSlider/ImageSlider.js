@@ -10,6 +10,10 @@ import youtube from "../../assets/youtube.svg";
 import tbngo from "../../assets/tbngo.svg";
 import styles from "./ImageSlider.module.css";
 import Link from "next/link";
+import HeartIcon from "../heartIcon";
+import MessengerIcon from "../messengerIcon";
+import YoutubeIcon from "../youtubeIcon";
+import TbngoIcon from "../tbngoIcon";
 
 const ImageSlider = ({ images = [], titleBold, titleLight, description }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -66,48 +70,25 @@ const ImageSlider = ({ images = [], titleBold, titleLight, description }) => {
 
       <div className={styles.icons}>
         {pathname !== "/wsparcie" && (
-          <div className={styles.iconWrapper}>
+          <div
+            style={{ marginBottom: "-20px" }}
+            className={`${styles.iconWrapper} ${styles.animated}`}
+          >
             <Link href={"wsparcie"}>
-              <Image
-                className={`${styles.logo} ${styles.animated}`}
-                style={{ marginBottom: "-20px" }}
-                src={heart}
-                alt="serce"
-                width="100"
-                height="100"
-              />
+              <HeartIcon />
             </Link>
           </div>
         )}
 
-        <div className={styles.iconWrapper}>
-          <Image
-            className={styles.logo}
-            style={{ marginBottom: "-20px" }}
-            src={messenger}
-            alt="messenger"
-            width="100"
-            height="100"
-          />
+        <div style={{ marginBottom: "-10px" }} className={styles.iconWrapper}>
+          <MessengerIcon />
         </div>
-        <div className={styles.iconWrapper}>
-          <Image
-            className={styles.logo}
-            style={{ marginBottom: "-20px" }}
-            src={youtube}
-            alt="youtube"
-            width="80"
-            height="100"
-          />
+
+        <div style={{ marginBottom: "-10px" }} className={styles.iconWrapper}>
+          <YoutubeIcon />
         </div>
-        <div className={styles.iconWrapper}>
-          <Image
-            className={styles.logo}
-            src={tbngo}
-            alt="tbngo"
-            width="80"
-            height="100"
-          />
+        <div style={{ marginBottom: "-20px" }} className={styles.iconWrapper}>
+          <TbngoIcon />
         </div>
       </div>
       <div className={styles.content}>
