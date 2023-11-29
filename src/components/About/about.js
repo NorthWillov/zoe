@@ -15,7 +15,9 @@ function About() {
           className={`${styles.content} ${styles.contentLarge} ${styles.contentFirstMobile}`}
         >
           <div className={styles.contentLogo}>
-            <h2 className={styles.logoTitle}>O kościele zoe</h2>
+            <h2 className={styles.logoTitle}>
+              <strong>O</strong> kościele <strong>zoe</strong>
+            </h2>
             <div className={styles.logoWrapper}>
               <Image
                 className={styles.logo}
@@ -61,7 +63,9 @@ function About() {
           className={`${styles.content} ${styles.textRight} ${styles.contentSmall} ${styles.contentSecondMobile}`}
         >
           <div className={styles.contentLogo}>
-            <h2 className={styles.logoTitle}>O kościele zoe</h2>
+            <h2 className={styles.logoTitle}>
+              <strong>O</strong> kościele <strong>zoe</strong>
+            </h2>
             <div className={styles.logoWrapper}>
               <Image
                 className={styles.logo}
@@ -105,7 +109,9 @@ function About() {
           className={`${styles.content} ${styles.contentLarge} ${styles.contentThirdMobile}`}
         >
           <div className={styles.contentLogo}>
-            <h2 className={styles.logoTitle}>O kościele zoe</h2>
+            <h2 className={styles.logoTitle}>
+              <strong>O</strong> kościele <strong>zoe</strong>
+            </h2>
             <div className={styles.logoWrapper}>
               <Image
                 className={styles.logo}
