@@ -89,6 +89,7 @@
   text-transform: uppercase;
   font-size: 12px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1440px) {
@@ -151,5 +152,10 @@
   }
   .contentLogo {
     z-index: 2;
+  }
+  .btn {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
   }
 }
