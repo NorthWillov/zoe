@@ -11,8 +11,8 @@ function MessengerIcon(props) {
     >
       <g filter="url(#filter0_d_1045_132)">
         <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
+          fillRule="evenodd"
+          clipRule="evenodd"
           d="M54.63 28.01C39.92 28.01 28 39.05 28 52.67C28 60.43 31.87 67.35 37.93 71.87V81.27L47 76.29C49.42 76.96 51.98 77.32 54.64 77.32C69.35 77.32 81.27 66.28 81.27 52.66C81.27 39.04 69.34 28 54.64 28L54.63 28.01ZM57.28 61.22L50.5 53.99L37.27 61.22L51.83 45.77L58.78 53L71.85 45.77L57.29 61.22H57.28Z"
           fill="white"
         />
@@ -25,9 +25,9 @@ function MessengerIcon(props) {
           width="113.273"
           height="113.27"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+          <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix
             in="SourceAlpha"
             type="matrix"

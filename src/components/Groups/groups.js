@@ -1,5 +1,14 @@
+"use client";
+
 import React from "react";
 import styles from "./groups.module.css";
+import Map from "../Map/map";
+
+const location = {
+  address: "Witomino-Leśniczówka, Gdynia",
+  lat: 54.497014,
+  lng: 18.507618,
+};
 
 function Groups(props) {
   return (
@@ -73,7 +82,9 @@ function Groups(props) {
         </div>
       </div>
       <div className={styles.secondGroups}>
-        <div className={styles.map}>GOOGLE MAP</div>
+        <div className={styles.map}>
+          <Map />
+        </div>
         <div className={styles.group}>
           <p className={styles.groupText}>
             <strong>Lorem ipsum dolor sit amet </strong>
