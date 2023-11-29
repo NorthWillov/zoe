@@ -9,9 +9,7 @@ import youtube from "../../assets/youtube.svg";
 import tbngo from "../../assets/tbngo.svg";
 import styles from "./ImageSlider.module.css";
 
-const images = ["image1.jpeg", "image2.jpeg", "image3.jpeg", "image4.jpeg"];
-
-const ImageSlider = ({ titleBold, titleLight, description }) => {
+const ImageSlider = ({ images = [], titleBold, titleLight, description }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -31,6 +29,7 @@ const ImageSlider = ({ titleBold, titleLight, description }) => {
       <div
         className={styles.sliderImages}
         style={{
+          width: `${images.length}00%`,
           transform: `translateX(-${
             currentImageIndex * (100 / images.length)
           }%)`,
@@ -47,17 +46,20 @@ const ImageSlider = ({ titleBold, titleLight, description }) => {
           ></div>
         ))}
       </div>
-      <div className={styles.dotsContainer}>
-        {images.map((_, index) => (
-          <div
-            key={index}
-            className={`${styles.dot} ${
-              index === currentImageIndex ? styles.active : ""
-            }`}
-            onClick={() => handleDotClick(index)}
-          ></div>
-        ))}
-      </div>
+      {images.length > 1 && (
+        <div className={styles.dotsContainer}>
+          {images.map((_, index) => (
+            <div
+              key={index}
+              className={`${styles.dot} ${
+                index === currentImageIndex ? styles.active : ""
+              }`}
+              onClick={() => handleDotClick(index)}
+            ></div>
+          ))}
+        </div>
+      )}
+
       <div className={styles.icons}>
         <div className={styles.iconWrapper}>
           <Image
@@ -104,17 +106,7 @@ const ImageSlider = ({ titleBold, titleLight, description }) => {
           <strong>{titleBold}</strong> {titleLight}
         </h1>
         <div className={styles.contentTextWrapper}>
-          <p className={styles.contentText}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-            velit esse molestie consequat, vel illum dolore eu feugiat nulla
-            facilisis at vero eros et accumsan et iusto odio dignissim qui
-            blandit praesent luptatum zzril delenit augue duis dolore te feugait
-            nulla facilisi.
-          </p>
+          <p className={styles.contentText}>{description}</p>
         </div>
       </div>
       <div className={styles.logoWrapper}>
