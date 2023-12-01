@@ -1,5 +1,5 @@
 export function formatAmountForDisplay(amount, currency) {
-  let numberFormat = new Intl.NumberFormat(["en-US"], {
+  let numberFormat = new Intl.NumberFormat(["pl-PL"], {
     style: "currency",
     currency: currency,
     currencyDisplay: "symbol",
@@ -8,7 +8,7 @@ export function formatAmountForDisplay(amount, currency) {
 }
 
 export function formatAmountForStripe(amount, currency) {
-  let numberFormat = new Intl.NumberFormat(["en-US"], {
+  let numberFormat = new Intl.NumberFormat(["pl-PL"], {
     style: "currency",
     currency: currency,
     currencyDisplay: "symbol",

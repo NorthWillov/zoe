@@ -11,13 +11,14 @@ export async function createCheckoutSession(data) {
   const checkoutSession = await stripe.checkout.sessions.create({
     mode: "payment",
     submit_type: "donate",
+    payment_method_types: ["card", "blik", "p24"],
     line_items: [
       {
         quantity: 1,
         price_data: {
           currency: CURRENCY,
           product_data: {
-            name: "Custom amount donation",
+            name: "Kwota darowizny",
           },
           unit_amount: formatAmountForStripe(
             Number(data.get("customDonation")),

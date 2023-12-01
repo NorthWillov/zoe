@@ -5,7 +5,6 @@ import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import Navbar from "@/components/Navbar/navbar";
 import CheckoutForm from "@/components/Checkout/CheckoutForm";
 import Footer from "@/components/Footer/footer";
-import Link from "next/link";
 
 function DonatePage() {
   return (
@@ -20,9 +19,8 @@ function DonatePage() {
         }
       />
       <section className={styles.desc}>
-        <div>
-          <h1>Donate with Checkout</h1>
-          <p>Donate to our project 💖</p>
+        <div className={styles.checkoutForm}>
+          <h1 className={styles.title}>Wesprzyj nas</h1>
           <CheckoutForm />
         </div>
       </section>

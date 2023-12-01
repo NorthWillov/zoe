@@ -4,6 +4,15 @@
 }
 
 .desc {
-  height: 100vh;
-  background-color: grey;
+  background-color: #fff;
+  padding: 100px 15%;
+}
+.checkoutForm {
+  color: #000;
+}
+
+.title {
+  text-align: center;
+  font-size: 46px;
+  margin-bottom: 50px;
 }
