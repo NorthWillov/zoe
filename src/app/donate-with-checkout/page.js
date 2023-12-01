@@ -1,10 +1,13 @@
+"use client";
 import React from "react";
 import styles from "./page.module.css";
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import Navbar from "@/components/Navbar/navbar";
+import CheckoutForm from "@/components/Checkout/CheckoutForm";
 import Footer from "@/components/Footer/footer";
+import Link from "next/link";
 
-function Wsparcie() {
+function DonatePage() {
   return (
     <main className={styles.main}>
       <Navbar />
@@ -17,10 +20,15 @@ function Wsparcie() {
         }
       />
       <section className={styles.desc}>
+        <div>
+          <h1>Donate with Checkout</h1>
+          <p>Donate to our project 💖</p>
+          <CheckoutForm />
+        </div>
       </section>
       <Footer />
     </main>
   );
 }
 
-export default Wsparcie;
+export default DonatePage;

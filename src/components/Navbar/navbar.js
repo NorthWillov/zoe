@@ -217,7 +217,7 @@ const Navbar = () => {
           </ScrollLink>
         </li>
         <li>
-          <Link onClick={handleClick} href="wsparcie">
+          <Link onClick={handleClick} href="donate-with-checkout">
             Wsparcie
           </Link>
         </li>
