@@ -87,11 +87,18 @@ const ImageSlider = ({
         )}
 
         <div style={{ marginBottom: "-10px" }} className={styles.iconWrapper}>
-          <MessengerIcon />
+          <a href="https://www.facebook.com/kosciolzoe" target="_blank">
+            <MessengerIcon />
+          </a>
         </div>
 
         <div style={{ marginBottom: "-10px" }} className={styles.iconWrapper}>
-          <YoutubeIcon />
+          <a
+            href="https://www.youtube.com/@kosciozoetrojmiasto1012"
+            target="_blank"
+          >
+            <YoutubeIcon />
+          </a>
         </div>
         <div style={{ marginBottom: "-20px" }} className={styles.iconWrapper}>
           <a href="https://tbngo.pl" target="_blank">
