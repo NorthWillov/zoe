@@ -42,7 +42,7 @@
 
 .contentLogo {
   position: relative;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .desc {
@@ -73,7 +73,7 @@
   font-size: 46px;
   margin-bottom: 40px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 90px;
 }
 
 .text {
@@ -137,6 +137,7 @@
   }
   .contentSecondMobile::before {
     background-image: url("../../assets/godlight.jpeg");
+    opacity: 0.3;
   }
   .contentThirdMobile::before {
     background-image: url("../../assets/boat.jpeg");

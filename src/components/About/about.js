@@ -145,9 +145,9 @@ function About() {
               dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
               nibh euismod tincidunt ut laoreet dolore
             </p>
-            <a href="#" className={styles.btn}>
+            {/* <a href="#" className={styles.btn}>
               Lorem
-            </a>
+            </a> */}
           </div>
         </div>
         <div className={styles.imageThird}></div>

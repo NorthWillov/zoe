@@ -152,10 +152,11 @@
 
   .dotsContainer {
     left: 20px;
+    top: 38%;
   }
 
   .icons {
-    top: 32%;
+    top: 22%;
     right: 40px;
     transform: translateX(50%);
   }
@@ -178,7 +179,7 @@
   .content {
     flex-direction: column;
     justify-content: center;
-    height: 270px;
+    height: 300px;
   }
 
   .contentText {
@@ -198,11 +199,14 @@
 
   .contentMainPageTitle {
     font-size: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     width: 100%;
   }
   .contentMainPageText {
     font-size: 16px;
+  }
+  .logoWrapper {
+    top: 38%;
   }
 }
 
