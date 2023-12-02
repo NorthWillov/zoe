@@ -16,3 +16,10 @@
   font-size: 46px;
   margin-bottom: 50px;
 }
+
+@media only screen and (max-width: 960px) {
+  .desc {
+    background-color: #fff;
+    padding: 100px 5%;
+  }
+ }

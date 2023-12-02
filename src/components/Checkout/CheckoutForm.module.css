@@ -1,0 +1,55 @@
+.fixedBtn {
+  background-color: #16b8f3;
+  width: 100%;
+  height: 60px;
+  line-height: 65px;
+  font-size: 25px;
+  font-weight: 700;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.fixedForms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.fixedForm {
+  margin-bottom: 30px;
+  width: 30%;
+}
+
+.customFormTitle {
+  text-align: center;
+}
+
+.red {
+  color: red;
+}
+
+.customForm {
+  margin-top: 70px;
+}
+
+.input {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  text-decoration: underline;
+  border: none;
+  font-size: 40px;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 960px) {
+  .fixedForm {
+    width: 45%;
+  }
+  .fixedBtn {
+    font-size: 20px;
+  }
+}
