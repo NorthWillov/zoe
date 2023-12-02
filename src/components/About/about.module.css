@@ -119,7 +119,6 @@
   .content {
     position: relative;
     width: 100%;
-    height: 800px;
   }
   .content::before {
     width: 100%;
