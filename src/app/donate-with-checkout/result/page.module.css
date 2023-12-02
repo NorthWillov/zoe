@@ -1,0 +1,19 @@
+.main {
+  text-align: center;
+  padding: 0 20%;
+}
+
+.title {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.text {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 960px) {
+  .main {
+    padding: 0 5%;
+  }
+}
