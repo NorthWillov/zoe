@@ -77,9 +77,9 @@ const Navbar = () => {
           />
         </Link>
         <div className={styles.logoText}>
-          <span>Lorem ipsum</span>
+          <span>Bliżej boga</span>
           <span>
-            <strong>Lorem ipsum</strong>
+            <strong>Bliżej Człowieka</strong>
           </span>
         </div>
       </div>

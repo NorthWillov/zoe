@@ -72,13 +72,20 @@
   right: 0;
   display: flex;
   align-items: center;
-  justify-content: space-around;
 }
 
 .contentTitle {
   width: 50%;
   text-align: center;
   font-size: 46px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.contentMainPageTitle {
+  width: 50%;
+  text-align: center;
+  font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -95,6 +102,11 @@
   font-size: 12px;
 }
 
+.contentMainPageText {
+  font-size: 20px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 1440px) {
   .contentText {
     width: 90%;
@@ -102,8 +114,14 @@
   .contentTitle {
     font-size: 40px;
   }
+  .contentMainPageTitle {
+    font-size: 20px;
+  }
   .content {
     height: 200px;
+  }
+  .contentMainPageText {
+    font-size: 16px;
   }
 }
 
@@ -159,8 +177,8 @@
 
   .content {
     flex-direction: column;
-    justify-content: flex-start;
-    height: 250px;
+    justify-content: center;
+    height: 270px;
   }
 
   .contentText {
@@ -176,6 +194,15 @@
     font-size: 30px;
     padding: 20px 0;
     width: 100%;
+  }
+
+  .contentMainPageTitle {
+    font-size: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .contentMainPageText {
+    font-size: 16px;
   }
 }
 

@@ -15,7 +15,13 @@ import MessengerIcon from "../messengerIcon";
 import YoutubeIcon from "../youtubeIcon";
 import TbngoIcon from "../tbngoIcon";
 
-const ImageSlider = ({ images = [], titleBold, titleLight, description }) => {
+const ImageSlider = ({
+  images = [],
+  titleBold,
+  titleLight,
+  description,
+  mainPage,
+}) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const pathname = usePathname();
@@ -94,11 +100,25 @@ const ImageSlider = ({ images = [], titleBold, titleLight, description }) => {
         </div>
       </div>
       <div className={styles.content}>
-        <h1 className={styles.contentTitle}>
-          <strong>{titleBold}</strong> {titleLight}
-        </h1>
+        {mainPage ? (
+          <h1 className={styles.contentMainPageTitle}>
+            Kościół Chrześcijański ZOE Trójmiasto <br /> Kościół Ewangeliczny
+          </h1>
+        ) : (
+          <h1 className={styles.contentTitle}>
+            <strong>{titleBold}</strong> {titleLight}
+          </h1>
+        )}
         <div className={styles.contentTextWrapper}>
-          <p className={styles.contentText}>{description}</p>
+          {mainPage ? (
+            <p className={styles.contentMainPageText}>
+              ZOE to greckie słowo, które oznacza: życie, życie wieczne.
+              <br /> Słowo Boże przynosi życie, Jezus przynosi życie. <br />{" "}
+              Jezus jest Twoim, moim, naszym życiem.
+            </p>
+          ) : (
+            <p className={styles.contentText}>{description}</p>
+          )}
         </div>
       </div>
       <div className={styles.logoWrapper}>

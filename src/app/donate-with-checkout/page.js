@@ -3,7 +3,7 @@ import React from "react";
 import styles from "./page.module.css";
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import Navbar from "@/components/Navbar/navbar";
-import CheckoutForm from "@/components/Checkout/CheckoutForm";
+// import CheckoutForm from "@/components/Checkout/CheckoutForm";
 import Footer from "@/components/Footer/footer";
 
 function DonatePage() {
@@ -21,7 +21,7 @@ function DonatePage() {
       <section className={styles.desc}>
         <div className={styles.checkoutForm}>
           <h1 className={styles.title}>Wesprzyj nas</h1>
-          <CheckoutForm />
+          {/* <CheckoutForm /> */}
         </div>
       </section>
       <Footer />

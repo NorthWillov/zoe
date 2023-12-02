@@ -1,7 +1,7 @@
 export const CURRENCY = "pln";
 // Set your amount limits: Use float for decimal currencies and
 // Integer for zero-decimal currencies: https://stripe.com/docs/currencies#zero-decimal.
-export const MIN_AMOUNT = 10.0;
+export const MIN_AMOUNT = 2.0;
 export const MAX_AMOUNT = 300.0;
 export const AMOUNT_STEP = 10.0;
 
