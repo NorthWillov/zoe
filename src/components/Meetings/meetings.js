@@ -9,11 +9,12 @@ function Meetings() {
       <div className={styles.meeting}>
         <div className={styles.desc}>
           <div className={styles.meetingsLogoTitle}>
-            <h2 className={styles.regularText}>Regularne</h2>
             <h2 className={styles.meetingsTextTitle}>Spotkania</h2>
           </div>
           <div className={styles.week}>
-            <h3 className={styles.weekTitle}>Niedziela</h3>
+            <h3 className={styles.weekTitle}>
+              Niedziela<sup>*regularnie</sup>
+            </h3>
             <p className={styles.weekDesc}>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
@@ -41,7 +42,9 @@ function Meetings() {
       <div className={styles.meeting}>
         <div className={styles.desc}>
           <div className={styles.week}>
-            <h3 className={styles.weekTitle}>Środa</h3>
+            <h3 className={styles.weekTitle}>
+              Środa<sup>*regularnie</sup>
+            </h3>
             <p className={styles.weekDesc}>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam

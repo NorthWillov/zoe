@@ -7,6 +7,7 @@
 }
 
 .desc {
+  position: relative;
   width: 55%;
   padding: 4% 10%;
 }
@@ -26,13 +27,6 @@
   margin-bottom: 32px;
 }
 
-.regularText {
-  color: #e9e9e9;
-  font-size: 81px;
-  font-weight: 700;
-  word-wrap: break-word;
-}
-
 .meetingsTextTitle {
   color: black;
   font-size: 46px;
@@ -47,6 +41,12 @@
   font-weight: 300;
   word-wrap: break-word;
   margin-bottom: 20px;
+}
+
+.weekTitle sup {
+  font-size: 15px;
+  color: grey;
+  margin-left: 15px;
 }
 
 .weekDesc {
@@ -109,18 +109,12 @@
 }
 
 @media only screen and (max-width: 1440px) {
-  .regularText {
-    font-size: 70px;
-  }
   .desc {
     padding: 4% 5%;
   }
 }
 
 @media only screen and (max-width: 960px) {
-  .regularText {
-    font-size: 55px;
-  }
   .image {
     display: none;
   }
