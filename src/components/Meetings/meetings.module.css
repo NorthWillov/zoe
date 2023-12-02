@@ -74,37 +74,37 @@
 }
 
 .sundayImage {
-  /* background-image: url("../../assets/godlight.jpeg"); */
+  background-image: url("../../assets/niedziela.jpeg");
   background-color: grey;
 }
 
 .wednesdayImage {
-  /* background-image: url("../../assets/boat.jpeg"); */
+  background-image: url("../../assets/wednesday.jpeg");
   background-color: lightgrey;
 }
 
 .childrenImage {
-  /* background-image: url("../../assets/orangecloud.jpeg"); */
+  background-image: url("../../assets/children.jpeg");
   background-color: grey;
 }
 
 .youngImage {
-  /* background-image: url("../../assets/godlight.jpeg"); */
+  background-image: url("../../assets/young.jpeg");
   background-color: lightgrey;
 }
 
 .menImage {
-  /* background-image: url("../../assets/boat.jpeg"); */
+  background-image: url("../../assets/men.jpeg");
   background-color: grey;
 }
 
 .womenImage {
-  /* background-image: url("../../assets/orangecloud.jpeg"); */
+  background-image: url("../../assets/zenskie.jpeg");
   background-color: lightgrey;
 }
 
 .eventImage {
-  /* background-image: url("../../assets/godlight.jpeg"); */
+  background-image: url("../../assets/wydarzenia.jpeg");
   background-color: grey;
 }
 

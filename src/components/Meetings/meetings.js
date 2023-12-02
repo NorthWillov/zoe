@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./meetings.module.css";
+import Logoline from "../LogoLine/logoline";
 
 function Meetings() {
   return (
@@ -31,11 +32,11 @@ function Meetings() {
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
             <Link href="niedziela" className={styles.btn}>
-              lorem
+              Więcej
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.sundayImage}`}>SOME PICTURE</div>
+        <div className={`${styles.image} ${styles.sundayImage}`}></div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -59,12 +60,13 @@ function Meetings() {
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
             <Link href="sroda" className={styles.btn}>
-              lorem
+              Więcej
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.wednesdayImage}`}>SOME PICTURE</div>
+        <div className={`${styles.image} ${styles.wednesdayImage}`}></div>
       </div>
+      <Logoline />
       <div className={styles.meeting}>
         <div className={styles.desc}>
           <div className={styles.week}>
@@ -87,11 +89,11 @@ function Meetings() {
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
             <Link href="dzieci" className={styles.btn}>
-              lorem
+              Więcej
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.childrenImage}`}>SOME PICTURE</div>
+        <div className={`${styles.image} ${styles.childrenImage}`}></div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -115,11 +117,11 @@ function Meetings() {
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
             <Link href="mlodziez" className={styles.btn}>
-              lorem
+              Więcej
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.youngImage}`}>SOME PICTURE</div>
+        <div className={`${styles.image} ${styles.youngImage}`}></div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -143,11 +145,11 @@ function Meetings() {
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
             <Link href="meskie" className={styles.btn}>
-              lorem
+              Więcej
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.menImage}`}>SOME PICTURE</div>
+        <div className={`${styles.image} ${styles.menImage}`}></div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -171,11 +173,11 @@ function Meetings() {
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
             <Link href="zenskie" className={styles.btn}>
-              lorem
+              Więcej
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.womenImage}`}>SOME PICTURE</div>
+        <div className={`${styles.image} ${styles.womenImage}`}></div>
       </div>
       <div className={styles.meeting}>
         <div className={styles.desc}>
@@ -199,11 +201,11 @@ function Meetings() {
               nibh euismod tincidunt ut laoreet dolore{" "}
             </p>
             <Link href="wydarzenia" className={styles.btn}>
-              lorem
+              Więcej
             </Link>
           </div>
         </div>
-        <div className={`${styles.image} ${styles.eventImage}`}>SOME PICTURE</div>
+        <div className={`${styles.image} ${styles.eventImage}`}></div>
       </div>
     </section>
   );
