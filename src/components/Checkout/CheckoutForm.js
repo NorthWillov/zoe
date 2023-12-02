@@ -91,7 +91,7 @@ export default function CheckoutForm() {
       <div className={styles.customForm}>
         {input.customDonation < 2 ? (
           <h3 className={`${styles.customFormTitle} ${styles.red}`}>
-            Minimalna kwota darowizny to 2 zł
+            Minimalna kwota darowizny to: 2 zł
           </h3>
         ) : (
           <h3 className={styles.customFormTitle}>Lub wpisz dowolną kwotę:</h3>
