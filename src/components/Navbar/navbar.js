@@ -159,12 +159,26 @@ const Navbar = () => {
               isDropdown2Open ? styles.activeDropdown : ""
             }`}
           >
-            <ScrollLink onClick={handleClick} to="niedziela">
-              Niedziela
-            </ScrollLink>
-            <ScrollLink onClick={handleClick} to="sroda">
-              Środa
-            </ScrollLink>
+            {pathname === "/" ? (
+              <>
+                <ScrollLink onClick={handleClick} to="niedziela">
+                  Niedziela
+                </ScrollLink>
+                <ScrollLink onClick={handleClick} to="sroda">
+                  Środa
+                </ScrollLink>
+              </>
+            ) : (
+              <>
+                <a href="#" onClick={() => handleLinkClick("niedziela")}>
+                  Niedziela
+                </a>
+                <a href="#" onClick={() => handleLinkClick("sroda")}>
+                  Środa
+                </a>
+              </>
+            )}
+
             <Link onClick={handleClick} href="dzieci">
               Dzieci
             </Link>
