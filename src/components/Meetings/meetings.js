@@ -6,7 +6,7 @@ import Logoline from "../LogoLine/logoline";
 function Meetings() {
   return (
     <section className={styles.meetings}>
-      <div className={styles.meeting}>
+      <div className={styles.meeting} data-testid={"niedziela"} id="niedziela">
         <div className={styles.desc}>
           <div className={styles.meetingsLogoTitle}>
             <h2 className={styles.meetingsTextTitle}>Spotkania</h2>
@@ -53,7 +53,7 @@ function Meetings() {
         </div>
         <div className={`${styles.image} ${styles.sundayImage}`}></div>
       </div>
-      <div className={styles.meeting}>
+      <div className={styles.meeting} data-testid={"sroda"} id="sroda">
         <div className={styles.desc}>
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>
