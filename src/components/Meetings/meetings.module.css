@@ -9,7 +9,13 @@
 .desc {
   position: relative;
   width: 55%;
-  padding: 4% 10%;
+  padding: 4% 7%;
+  color: #000;
+}
+
+.email {
+  text-decoration: underline;
+  color: orange;
 }
 
 .image {
@@ -43,6 +49,13 @@
   margin-bottom: 20px;
 }
 
+.weekSubtitle {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .weekTitle sup {
   font-size: 15px;
   color: grey;
@@ -51,9 +64,8 @@
 
 .weekDesc {
   color: black;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 300;
-  line-height: 18px;
   word-wrap: break-word;
   margin-bottom: 23px;
 }
@@ -126,5 +138,8 @@
     width: 100%;
     height: 45px;
     line-height: 45px;
+  }
+  .weekTitle {
+    font-size: 35px;
   }
 }

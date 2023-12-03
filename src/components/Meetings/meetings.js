@@ -15,26 +15,40 @@ function Meetings() {
             <h3 className={styles.weekTitle}>
               Niedziela<sup>*regularnie</sup>
             </h3>
+            <h4 className={styles.weekSubtitle}>
+              Nabożeństwa niedzielne rozpoczynamy o godzinie 11:00.
+            </h4>
             <p className={styles.weekDesc}>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
+              W niedzielę spotykamy się, aby oddać chwałę Bogu, uczcić Jezusa
+              Chrystusa śpiewem i modlitwą, modlić się o zdrowie i nawiązywać
+              relacje z innymi ludźmi. Słuchamy kazania, a w ostatnią niedzielę
+              miesiąca odbywa się Wieczerza Pańska (komunia).
+              <br /> <br />
+              <strong>Jesteś tu nowy?</strong> Zwróć uwagę na osoby z
+              serduszkami. Pomogą Tobie znaleźć miejsce, odpowiedzą na pytania i
+              zaopiekują się.
+              <br /> <br />
+              <strong>Dzieci</strong> - W trakcie kazań odbywają się zajęcia
+              Kościoła Dziecięcego w różnych grupach wiekowych 3-15 lat. Dla
+              rodziców z dziećmi w wieku do 3 lat przygotowaliśmy salę opieki. W
+              sali rodzice mogą oglądać transmisję nabożeństwa na ekranie, a
+              dzieci bawić się lub uczyć :)
+              <br /> <br />
+              <strong>Kawiarnia </strong>- Po nabożeństwie spotykamy się na
+              kawie, herbacie i ciastku w naszej kawiarni, aby wspólnie spędzić
+              czas.
+              <br /> <strong>Zaangażuj się</strong> - Każdej niedzieli nasi
+              wolontariusze mają pełne ręce roboty. Jeśli chcesz się
+              zaangażować, możesz w każdej chwili dołączyć do nich. Wystarczy
+              napisać na{" "}
+              <span className={styles.email}>wolontariat@kosciolzoe.pl </span>i
+              wyrazić chęć pomocy.
+              <br /> <br />
+              Bardzo serdecznie zapraszamy.
             </p>
-            <Link href="niedziela" className={styles.btn}>
+            {/* <Link href="niedziela" className={styles.btn}>
               Więcej
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className={`${styles.image} ${styles.sundayImage}`}></div>
@@ -45,26 +59,21 @@ function Meetings() {
             <h3 className={styles.weekTitle}>
               Środa<sup>*regularnie</sup>
             </h3>
+            <h4 className={styles.weekSubtitle}>
+              Spotkania środowe rozpoczynamy o godzinie 18:30.
+            </h4>
             <p className={styles.weekDesc}>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
+              W środę spotykamy się, żeby modlić się o najróżniejsze sprawy:
+              Polski, regionu, rodzin ZOE, obecnych na spotkaniu, wydarzenia.
+              <br /> <br />
+              Uczymy się modlić i studiujemy w Piśmie Świętym ważne życiowe
+              tematy.
+              <br /> <br />
+              Bardzo serdecznie zapraszamy.
             </p>
-            <Link href="sroda" className={styles.btn}>
+            {/* <Link href="sroda" className={styles.btn}>
               Więcej
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className={`${styles.image} ${styles.wednesdayImage}`}></div>
