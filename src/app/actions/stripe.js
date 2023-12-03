@@ -29,8 +29,8 @@ export async function createCheckoutSession(data) {
     ],
     success_url: `${headers().get(
       "origin"
-    )}/donate-with-checkout/result?session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${headers().get("origin")}/donate-with-checkout`,
+    )}/wsparcie/result?session_id={CHECKOUT_SESSION_ID}`,
+    cancel_url: `${headers().get("origin")}/wsparcie`,
   });
 
   redirect(checkoutSession.url);

@@ -75,12 +75,12 @@ const ImageSlider = ({
       )}
 
       <div className={styles.icons}>
-        {pathname !== "/donate-with-checkout" && (
+        {pathname !== "/wsparcie" && (
           <div
             style={{ marginBottom: "-20px" }}
             className={`${styles.iconWrapper} ${styles.animated}`}
           >
-            <Link href={"donate-with-checkout"}>
+            <Link href={"wsparcie"}>
               <HeartIcon />
             </Link>
           </div>
