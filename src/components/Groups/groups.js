@@ -18,93 +18,96 @@ function Groups(props) {
           Grupy <strong>Domowe</strong>
         </h2>
         <div className={styles.group}>
-          <p className={styles.groupText}>
-            <strong>Lorem ipsum dolor sit amet </strong>
+          <ul className={styles.groupText}>
+            <strong>
+              To regularne spotkania w kilkuosobowym, czasami kilkunastoosobowym
+              gronie.
+            </strong>
+            <br /> <br />
+            Grupa to miejsce, w których możemy nawiązać relacje i rozwijać się
+            duchowo oraz pomagać! Bez względu na to, czego szukasz, przez co
+            przechodzisz i na jakim etapie życia się znajdujesz, możesz znaleźć
+            nowe wartościowe relacje w Grupach Domowych ZOE.
+            <br /> <br />
+            Podczas spotkań rozmawiamy, modlimy się, omawiamy życiowe tematy.
+            <br /> <br />
+            Szukasz grupy w Twojej okolicy? Napisz na email.
+            <br /> <br />
+            Lista kontaktów poniżej lub po kliknięciu miejsca na mapie.
             <br />
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-            velit esse molestie consequat, vel illum dolore eu feugiat nulla
-            facilisis at vero eros et accumsan et iusto odio dignissim qui
-            blandit praesent luptatum zzril delenit augue duis dolore te feugait
-            nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing
-            elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-            ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore{" "}
-          </p>
-        </div>
-        <div className={styles.group}>
-          <p className={styles.groupText}>
-            <strong>Lorem ipsum dolor sit amet </strong>
             <br />
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-            velit esse molestie consequat, vel illum dolore eu feugiat nulla
-            facilisis at vero eros et accumsan et iusto odio dignissim qui
-            blandit praesent luptatum zzril delenit augue duis dolore te feugait
-            nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing
-            elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-            ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore{" "}
-          </p>
-        </div>
-        <div className={styles.group}>
-          <p className={styles.groupText}>
-            <strong>Lorem ipsum dolor sit amet </strong>
-            <br />
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-            velit esse molestie consequat, vel illum dolore eu feugiat nulla
-            facilisis at vero eros et accumsan et iusto odio dignissim qui
-            blandit praesent luptatum zzril delenit augue duis dolore te feugait
-            nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing
-            elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-            ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore{" "}
-          </p>
+            <li>
+              Witomino: <span>witominogrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Gdynia Śródmieście: <span>centrumgrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Grabówek, Chylonia: <span>grabowekgrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Karwiny, Wielki Kack: <span>karwinygrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Dąbrowa, Dąbrówka:{" "}
+              <span>
+                dabrowagrupa@kosciolzoe.pl, dabrowa2grupa@kosciolzoe.pl
+              </span>
+            </li>
+            <li>
+              Oksywie, Obłuże: <span>oksywiegrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Wiczlino, Chwarzno: <span>wiczlinogrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Gdańsk Śródmieście, Letniego, Nowy Port, Brzeźno:{" "}
+              <span>srodmiesciegrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Siedlce, Suchanino, Morena:{" "}
+              <span>siedlcegrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Przymoże, Żabianka, Sopot:
+              <span>przymorzegrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Oliwa, Jelitkowo, Osowa: <span>oliwagrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Wrzeszcz, Suchanino: <span>wrzeszczgrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Stogi, Chełm: <span>stogi-chelmgrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Orunia, Kokoszki, Kowale: <span>oruniagrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              OKOLICE Bojano, Dobrzewino: <span>bojanogrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Chwaszczyno, Banino: <span>chwaszczynogrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Reda: <span>redagrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Rumia: <span>rumiagrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Wejherowo: <span>wejherowogrupa@kosciolzoe.pl</span>
+            </li>
+            <li>
+              Żukowo, Małkowo: <span>zukowogrupa@kosciolzoe.pl</span>
+            </li>
+          </ul>
         </div>
       </div>
       <div className={styles.secondGroups}>
         <div className={styles.map}>
           <Map />
-        </div>
-        <div className={styles.group}>
-          <p className={styles.groupText}>
-            <strong>Lorem ipsum dolor sit amet </strong>
-            <br />
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-            velit esse molestie consequat, vel illum dolore eu feugiat nulla
-            facilisis at vero eros et accumsan et iusto odio dignissim qui
-            blandit praesent luptatum zzril delenit augue duis dolore te feugait
-            nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing
-            elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-            ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore{" "}
-          </p>
         </div>
       </div>
     </section>
