@@ -18,96 +18,121 @@ function Groups(props) {
           Grupy <strong>Domowe</strong>
         </h2>
         <div className={styles.group}>
-          <ul className={styles.groupText}>
-            <strong>
-              To regularne spotkania w kilkuosobowym, czasami kilkunastoosobowym
-              gronie.
-            </strong>
-            <br /> <br />
-            Grupa to miejsce, w których możemy nawiązać relacje i rozwijać się
-            duchowo oraz pomagać! Bez względu na to, czego szukasz, przez co
-            przechodzisz i na jakim etapie życia się znajdujesz, możesz znaleźć
-            nowe wartościowe relacje w Grupach Domowych ZOE.
-            <br /> <br />
-            Podczas spotkań rozmawiamy, modlimy się, omawiamy życiowe tematy.
-            <br /> <br />
-            Szukasz grupy w Twojej okolicy? Napisz na email.
-            <br /> <br />
-            Lista kontaktów poniżej lub po kliknięciu miejsca na mapie.
-            <br />
-            <br />
-            <li>
-              Witomino: <span>witominogrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Gdynia Śródmieście: <span>centrumgrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Grabówek, Chylonia: <span>grabowekgrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Karwiny, Wielki Kack: <span>karwinygrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Dąbrowa, Dąbrówka:{" "}
-              <span>
-                dabrowagrupa@kosciolzoe.pl, dabrowa2grupa@kosciolzoe.pl
-              </span>
-            </li>
-            <li>
-              Oksywie, Obłuże: <span>oksywiegrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Wiczlino, Chwarzno: <span>wiczlinogrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Gdańsk Śródmieście, Letniego, Nowy Port, Brzeźno:{" "}
-              <span>srodmiesciegrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Siedlce, Suchanino, Morena:{" "}
-              <span>siedlcegrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Przymoże, Żabianka, Sopot:
-              <span>przymorzegrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Oliwa, Jelitkowo, Osowa: <span>oliwagrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Wrzeszcz, Suchanino: <span>wrzeszczgrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Stogi, Chełm: <span>stogi-chelmgrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Orunia, Kokoszki, Kowale: <span>oruniagrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              OKOLICE Bojano, Dobrzewino: <span>bojanogrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Chwaszczyno, Banino: <span>chwaszczynogrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Reda: <span>redagrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Rumia: <span>rumiagrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Wejherowo: <span>wejherowogrupa@kosciolzoe.pl</span>
-            </li>
-            <li>
-              Żukowo, Małkowo: <span>zukowogrupa@kosciolzoe.pl</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div className={styles.secondGroups}>
-        <div className={styles.map}>
-          <Map />
+          <h3>
+            To regularne spotkania w kilkuosobowym, czasami kilkunastoosobowym
+            gronie.
+          </h3>
+          <br /> <br />
+          Grupa to miejsce, w których możemy nawiązać relacje i rozwijać się
+          duchowo oraz pomagać! Bez względu na to, czego szukasz, przez co
+          przechodzisz i na jakim etapie życia się znajdujesz, możesz znaleźć
+          nowe wartościowe relacje w Grupach Domowych ZOE.
+          <br /> <br />
+          Podczas spotkań rozmawiamy, modlimy się, omawiamy życiowe tematy.
+          <br /> <br />
+          Szukasz grupy w Twojej okolicy? Napisz na email.
+          <br /> <br />
+          Lista kontaktów poniżej lub po kliknięciu miejsca na mapie.
+          <br />
+          <br />
+          <div className={styles.tableMapWrap}>
+            <table className={styles.table}>
+              <thead>
+                <tr>
+                  <th>Okolice</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Witomino</td>
+                  <td>witominogrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Gdynia Śródmieście</td>
+                  <td>centrumgrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Grabówek, Chylonia</td>
+                  <td>grabowekgrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Karwiny, Wielki Kack</td>
+                  <td>karwinygrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Dąbrowa, Dąbrówka</td>
+                  <td>
+                    dabrowagrupa@kosciolzoe.pl, dabrowa2grupa@kosciolzoe.pl
+                  </td>
+                </tr>
+                <tr>
+                  <td>Oksywie, Obłuże</td>
+                  <td>oksywiegrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Wiczlino, Chwarzno</td>
+                  <td>wiczlinogrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Gdańsk Śródmieście, Letniego, Nowy Port, Brzeźno</td>
+                  <td>srodmiesciegrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Siedlce, Suchanino, Morena</td>
+                  <td>siedlcegrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Przymoże, Żabianka, Sopot</td>
+                  <td>przymorzegrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Oliwa, Jelitkowo, Osowa</td>
+                  <td>oliwagrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Wrzeszcz, Suchanino</td>
+                  <td>wrzeszczgrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Stogi, Chełm</td>
+                  <td>stogi-chelmgrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Orunia, Kokoszki, Kowale</td>
+                  <td>oruniagrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>OKOLICE Bojano, Dobrzewino</td>
+                  <td>bojanogrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Chwaszczyno, Banino</td>
+                  <td>chwaszczynogrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Reda</td>
+                  <td>redagrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Rumia</td>
+                  <td>rumiagrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Wejherowo</td>
+                  <td>wejherowogrupa@kosciolzoe.pl</td>
+                </tr>
+                <tr>
+                  <td>Żukowo, Małkowo</td>
+                  <td>zukowogrupa@kosciolzoe.pl</td>
+                </tr>
+              </tbody>
+            </table>
+            <div className={styles.map}>
+              <Map />
+            </div>
+          </div>
         </div>
       </div>
     </section>
