@@ -17,11 +17,13 @@
 .map {
   background-color: lightgrey;
   width: 47%;
+  height: 600px;
 }
 
 .tableMapWrap {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .table {
