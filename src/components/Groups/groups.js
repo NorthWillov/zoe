@@ -4,13 +4,7 @@ import React from "react";
 import styles from "./groups.module.css";
 import Map from "../Map/map";
 
-const location = {
-  address: "Witomino-Leśniczówka, Gdynia",
-  lat: 54.497014,
-  lng: 18.507618,
-};
-
-function Groups(props) {
+function Groups() {
   return (
     <section className={styles.main} data-testid={"groups"} id="groups">
       <div className={styles.mainGroups}>
