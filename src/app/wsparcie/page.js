@@ -22,6 +22,32 @@ function DonatePage() {
         <div className={styles.checkoutForm}>
           <h1 className={styles.title}>Wesprzyj nas</h1>
           <CheckoutForm />
+          <div className={styles.transfer}>
+            <h3 className={styles.customFormTitle}>
+              Również moszesz wesprzyć nas{" "}
+              <strong>Przelewem Tradycyjnym:</strong>
+            </h3>
+            <div className={styles.transferData}>
+              <div className={styles.transferDataText}>
+                <h4 className={styles.transferDataTextTitle}>Kościół ZOE</h4>
+                <p className={styles.transferDataTextDesc}>
+                  ul. Bohaterów Getta Warszawskiego 7-9, 81-609 Gdynia
+                </p>
+              </div>
+              <div className={styles.transferDataText}>
+                <h4 className={styles.transferDataTextTitle}>Numer konta</h4>
+                <p className={styles.transferDataTextDesc}>
+                  66 1020 1853 0000 9602 0222 7247
+                </p>
+              </div>
+              <div className={styles.transferDataText}>
+                <h4 className={styles.transferDataTextTitle}>Tytuł</h4>
+                <p className={styles.transferDataTextDesc}>
+                  Darowizna dla Kościoła ZOE
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <Footer />

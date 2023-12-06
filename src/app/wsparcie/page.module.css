@@ -17,9 +17,49 @@
   margin-bottom: 50px;
 }
 
+.transfer {
+  margin-top: 150px;
+}
+
+.transferData {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.customFormTitle {
+  font-weight: 300;
+  text-align: center;
+}
+
+.transferDataText {
+  width: 30%;
+  text-align: center;
+}
+
+.transferDataTextTitle {
+  font-size: 20px;
+}
+
+.transferDataTextDesc {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 960px) {
   .desc {
     background-color: #fff;
     padding: 100px 5%;
   }
- }
+  .transfer {
+    margin-top: 150px;
+  }
+  .transferData {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .transferDataText {
+    margin-top: 50px;
+    width: 100%;
+  }
+}
