@@ -22,68 +22,38 @@ export default function CheckoutForm() {
     <>
       <div className={styles.fixedForms}>
         <form className={styles.fixedForm} action={createCheckoutSession}>
-          <button
-            name="customDonation"
-            className={styles.fixedBtn}
-            disabled={loading}
-            type="submit"
-            value={10.0}
-          >
+          <input type="hidden" name="customDonation" value={10} />
+          <button type="submit" className={styles.fixedBtn} disabled={loading}>
             {formatAmountForDisplay(10, config.CURRENCY)}
           </button>
         </form>
         <form className={styles.fixedForm} action={createCheckoutSession}>
-          <button
-            name="customDonation"
-            className={styles.fixedBtn}
-            disabled={loading}
-            type="submit"
-            value={20}
-          >
+          <input type="hidden" name="customDonation" value={20} />
+          <button type="submit" className={styles.fixedBtn} disabled={loading}>
             {formatAmountForDisplay(20, config.CURRENCY)}
           </button>
         </form>
         <form className={styles.fixedForm} action={createCheckoutSession}>
-          <button
-            name="customDonation"
-            className={styles.fixedBtn}
-            disabled={loading}
-            type="submit"
-            value={50}
-          >
+          <input type="hidden" name="customDonation" value={50} />
+          <button type="submit" className={styles.fixedBtn} disabled={loading}>
             {formatAmountForDisplay(50, config.CURRENCY)}
           </button>
         </form>
         <form className={styles.fixedForm} action={createCheckoutSession}>
-          <button
-            name="customDonation"
-            className={styles.fixedBtn}
-            disabled={loading}
-            type="submit"
-            value={100}
-          >
+          <input type="hidden" name="customDonation" value={100} />
+          <button type="submit" className={styles.fixedBtn} disabled={loading}>
             {formatAmountForDisplay(100, config.CURRENCY)}
           </button>
         </form>
         <form className={styles.fixedForm} action={createCheckoutSession}>
-          <button
-            name="customDonation"
-            className={styles.fixedBtn}
-            disabled={loading}
-            type="submit"
-            value={200}
-          >
+          <input type="hidden" name="customDonation" value={200} />
+          <button type="submit" className={styles.fixedBtn} disabled={loading}>
             {formatAmountForDisplay(200, config.CURRENCY)}
           </button>
         </form>
         <form className={styles.fixedForm} action={createCheckoutSession}>
-          <button
-            name="customDonation"
-            className={styles.fixedBtn}
-            disabled={loading}
-            type="submit"
-            value={300}
-          >
+          <input type="hidden" name="customDonation" value={300} />
+          <button type="submit" className={styles.fixedBtn} disabled={loading}>
             {formatAmountForDisplay(300, config.CURRENCY)}
           </button>
         </form>
