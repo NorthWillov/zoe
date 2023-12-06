@@ -27,7 +27,7 @@ export default function CheckoutForm() {
             className={styles.fixedBtn}
             disabled={loading}
             type="submit"
-            value={10}
+            value={10.0}
           >
             {formatAmountForDisplay(10, config.CURRENCY)}
           </button>
