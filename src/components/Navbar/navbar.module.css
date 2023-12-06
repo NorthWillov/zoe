@@ -200,6 +200,7 @@
   }
   .logoText {
     font-size: 10px;
+    margin-left: 10px;
   }
   .navBarMenuActive {
     top: 60px;
