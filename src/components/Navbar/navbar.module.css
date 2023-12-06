@@ -191,6 +191,27 @@
   }
 }
 
+@media only screen and (max-width: 380px) {
+  .navBar {
+    height: 60px;
+  }
+  .logo {
+    width: 130px;
+  }
+  .logoText {
+    font-size: 10px;
+  }
+  .navBarMenuActive {
+    top: 60px;
+  }
+  .navBarMenuActive li {
+    padding: 15px 0;
+  }
+  .dropdownContent a {
+    padding: 15px 0;
+  }
+}
+
 @keyframes slide-in {
   from {
     transform: translateY(-100%);
