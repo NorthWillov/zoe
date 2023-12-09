@@ -127,23 +127,26 @@ function About() {
             </div>
           </div>
           <div className={styles.desc}>
-            <h2 className={styles.title}>LOREM IPSUM! LOREM</h2>
+            <h2 className={styles.title}>O Kościele</h2>
             <p className={styles.text}>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore
+              Kościół Chrześcijański ZOE to wspólnota ludzi, którzy wyznają
+              swoją miłość do Boga i ludzi przez praktyczne życie
+              chrześcijańskie.
+              <br />
+              <br />
+              Żyjemy ze świadomością, że przez rozumienie Pisma Świętego i
+              postępowanie oparte na tym rozumieniu doświadczamy radości
+              zwycięstw nad trudnościami życia, zaangażowania Boga w nasze
+              życie.
+              <br />
+              <br />
+              Nasza radość płynie ze świadomości, że każdy może doświadczyć
+              miłości i zbawienia w Jezusie Panu, i że Bóg nie ma wybrańców
+              kiedy człowiek potrzebuje pomocy.
+              <br />
+              <br />
+              Kościół Chrześcijański ZOE to miejsce gdzie znajdziesz szczerą
+              miłość, troskę o Rodzinę, swój Dom.
             </p>
             {/* <a href="#" className={styles.btn}>
               Lorem
