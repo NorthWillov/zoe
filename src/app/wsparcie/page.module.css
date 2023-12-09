@@ -27,13 +27,26 @@
   justify-content: space-between;
 }
 
+.transferIntData {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
 .customFormTitle {
   font-weight: 300;
   text-align: center;
+  margin-top: 150px;
 }
 
 .transferDataText {
   width: 30%;
+  text-align: center;
+}
+
+.transferIntDataText {
+  text-align: center;
+  width: 47%;
   text-align: center;
 }
 
@@ -59,6 +72,14 @@
     margin-top: 0px;
   }
   .transferDataText {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .transferIntData {
+    flex-direction: column;
+    margin-top: 0px;
+  }
+  .transferIntDataText {
     margin-top: 50px;
     width: 100%;
   }

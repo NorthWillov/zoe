@@ -30,20 +30,42 @@ function DonatePage() {
             <div className={styles.transferData}>
               <div className={styles.transferDataText}>
                 <h4 className={styles.transferDataTextTitle}>Kościół ZOE</h4>
-                <p className={styles.transferDataTextDesc}>
-                  ul. Bohaterów Getta Warszawskiego 7-9, 81-609 Gdynia
-                </p>
+                <p className={styles.transferDataTextDesc}>BNP Pariba Bank</p>
               </div>
               <div className={styles.transferDataText}>
                 <h4 className={styles.transferDataTextTitle}>Numer konta</h4>
                 <p className={styles.transferDataTextDesc}>
-                  66 1020 1853 0000 9602 0222 7247
+                  77 1600 1114 1744 8347 4000 0001
                 </p>
               </div>
               <div className={styles.transferDataText}>
                 <h4 className={styles.transferDataTextTitle}>Tytuł</h4>
                 <p className={styles.transferDataTextDesc}>
-                  Darowizna dla Kościoła ZOE
+                  Darowizna na cele kultu religijnego
+                </p>
+              </div>
+            </div>
+            <h3 className={styles.customFormTitle}>
+              Dane do <strong>Przelewu Zagranicznego:</strong>
+            </h3>
+            <div className={styles.transferIntData}>
+              <div className={styles.transferIntDataText}>
+                <h4 className={styles.transferDataTextTitle}>
+                  Kosciol Chrzescijanski ZOE
+                </h4>
+                <p className={styles.transferDataTextDesc}>
+                  Address Street:{" "}
+                  <strong>Kasprzaka 2, ZIP CODE 01-211 CITY Warszawa</strong>{" "}
+                  <br />
+                  Bank’s Name: <strong>BNP Paribas Bank Polska S.A.</strong>
+                </p>
+              </div>
+              <div className={styles.transferIntDataText}>
+                <h4 className={styles.transferDataTextTitle}>Account number</h4>
+                <p className={styles.transferDataTextDesc}>
+                  IBAN: <strong>PL50 1600 1114 1744 8347 4000 0002</strong>
+                  <br />
+                  SWIFT/BIC: <strong>PPABPLPK</strong>
                 </p>
               </div>
             </div>
