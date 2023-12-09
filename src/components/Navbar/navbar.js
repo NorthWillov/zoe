@@ -120,7 +120,7 @@ const Navbar = () => {
                   Wyznanie wiary
                 </ScrollLink>
                 <ScrollLink onClick={handleClick} to="zbawienie">
-                  Modlitwa zbawienie
+                  Modlitwa zbawienia
                 </ScrollLink>
                 <ScrollLink onClick={handleClick} to="corobimy">
                   Co robimy

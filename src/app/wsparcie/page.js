@@ -24,7 +24,7 @@ function DonatePage() {
           <CheckoutForm />
           <div className={styles.transfer}>
             <h3 className={styles.customFormTitle}>
-              Również moszesz wesprzyć nas{" "}
+              Również możesz wesprzyć nas{" "}
               <strong>Przelewem Tradycyjnym:</strong>
             </h3>
             <div className={styles.transferData}>
