@@ -37,7 +37,8 @@ function Meetings() {
               <strong>Kawiarnia </strong>- Po nabożeństwie spotykamy się na
               kawie, herbacie i ciastku w naszej kawiarni, aby wspólnie spędzić
               czas.
-              <br /> <strong>Zaangażuj się</strong> - Każdej niedzieli nasi
+              <br /> <br />
+              <strong>Zaangażuj się</strong> - Każdej niedzieli nasi
               wolontariusze mają pełne ręce roboty. Jeśli chcesz się
               zaangażować, możesz w każdej chwili dołączyć do nich. Wystarczy
               napisać na{" "}
