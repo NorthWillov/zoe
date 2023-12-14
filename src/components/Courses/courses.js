@@ -1,62 +1,54 @@
 import React from "react";
 import Image from "next/image";
-import alfa from "../../assets/alfa.svg";
+import alfa from "../../assets/alphalogo.svg";
 import styles from "./courses.module.css";
 
 function Courses() {
   return (
     <section className={styles.main} data-testid={"courses"} id="courses">
-      <div className={styles.alfaWrapper}>
-        <Image
-          className={styles.alfa}
-          src={alfa}
-          alt="kursy"
-          width="auto"
-          height="auto"
-        />
-      </div>
-      <div className={styles.courses}>
-        <div className={styles.course}>
-          <h3 className={styles.courseTitle}>Kurs dla par</h3>
-          <p className={styles.courseDesc}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-            velit esse molestie consequat, vel illum dolore eu feugiat nulla
-            facilisis at vero eros et accumsan et iusto odio dignissim qui
-            blandit praesent luptatum zzril delenit augue duis dolore te feugait
-            nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing
-            elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-            ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore{" "}
-          </p>
-          <a className={styles.btn}>lorem</a>
+      <div className={styles.content}>
+        <div className={styles.courses}>
+          <div className={styles.courseContent}>
+            <h3 className={styles.courseTitle}>Każdy ma pytania.</h3>
+            <p className={styles.courseDesc}>
+              Wierzymy, że każdy powinien mieć możliwość poznania wiary
+              chrześcijańskiej, móc zadać pytania i podzielić się swoim punktem
+              widzenia <br /> - niezależnie od miejsca, w którym się znajduje.
+            </p>
+          </div>
+
+          <div className={styles.alfaWrapper}>
+            <Image
+              className={styles.alfa}
+              src={alfa}
+              alt="kursy"
+              width="auto"
+              height="auto"
+            />
+          </div>
         </div>
-        <div className={`${styles.course} ${styles.textRight}`}>
-          <h3 className={styles.courseTitle}>Kurs dla par</h3>
-          <p className={styles.courseDesc}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-            nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
-            volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-            consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate
-            velit esse molestie consequat, vel illum dolore eu feugiat nulla
-            facilisis at vero eros et accumsan et iusto odio dignissim qui
-            blandit praesent luptatum zzril delenit augue duis dolore te feugait
-            nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer adipiscing
-            elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
-            nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-            ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer
-            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-            dolore{" "}
-          </p>
-          <a className={styles.btn}>lorem</a>
+      </div>
+      <div className={styles.btns}>
+        <div className={styles.btnsContent}>
+          <h4 className={styles.btnDesc}>Find an Alpha near you</h4>
+          <a
+            target="_blank"
+            href="https://polska.alpha.org/sprobuj"
+            className={styles.btn}
+          >
+            Try Alpha
+          </a>
+        </div>
+        <hr className={styles.line} />
+        <div className={styles.btnsContent}>
+          <h4 className={styles.btnDesc}>Learn how to run Alpha</h4>
+          <a
+            target="_blank"
+            href="https://polska.alpha.org/how-to-run-alpha"
+            className={styles.btn}
+          >
+            Learn How
+          </a>
         </div>
       </div>
     </section>
