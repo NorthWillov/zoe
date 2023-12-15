@@ -85,25 +85,24 @@ function Meetings() {
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Dzieci</h3>
             <p className={styles.weekDesc}>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
+              W czasie spotkania Kościoła prowadzone są zajęcia dla dzieci w
+              wieku 4-12 lat w dwóch grupach wiekowych. Podczas zajęć dzieci
+              poznają historie biblijne przedstawiane im w sposób przystępny i
+              ciekawy.
+              <br />
+              <br />
+              Nauka przeplatana jest z zabawą, poznawaniem Bożej miłości i
+              Bożego stworzenia. Dzieci uczą się biblijnych zasad życia,
+              współpracy z innymi, poznają Bożą wolę.
+              <br />
+              <br />
+              Wierzymy, że każde dziecko na swój sposób jest obdarowane różnymi
+              talentami, zdolnościami oraz posiada potrzebę relacji z innymi
+              dziećmi.
             </p>
-            <Link href="dzieci" className={styles.btn}>
+            {/* <Link href="dzieci" className={styles.btn}>
               Więcej
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className={`${styles.image} ${styles.childrenImage}`}></div>
@@ -113,25 +112,19 @@ function Meetings() {
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Młodzież</h3>
             <p className={styles.weekDesc}>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
+              Nastolatkowie, dwudziestolatkowie na różne sposoby łaćzą się
+              dokoła wspólnych spraw.
+              <br />
+              <br />
+              Zjednoczeni wspierają sie w swoich sprawach i wierze w praktyczne
+              chrześcijaństwo.
+              <br />
+              <br />
+              Zapaszamy Ciebie na spotkania
             </p>
-            <Link href="mlodziez" className={styles.btn}>
+            {/* <Link href="mlodziez" className={styles.btn}>
               Więcej
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className={`${styles.image} ${styles.youngImage}`}></div>
@@ -141,25 +134,16 @@ function Meetings() {
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Męskie</h3>
             <p className={styles.weekDesc}>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
+              Odkrywamy boży plan dla każdego mężczyzny. Mąż, ojciec, brat, syn
+              to role, które pełnimy na co dzień.
+              <br />
+              <br />
+              To często spore wyzwania, o których szczerze i wprost rozmawiamy,
+              wymieniając się przy tym doświadczeniami i spostrzeżeniami.
             </p>
-            <Link href="meskie" className={styles.btn}>
+            {/* <Link href="meskie" className={styles.btn}>
               Więcej
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className={`${styles.image} ${styles.menImage}`}></div>
@@ -169,25 +153,16 @@ function Meetings() {
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Żeńskie</h3>
             <p className={styles.weekDesc}>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
+              Spotkania dla kobiet to bezpieczne miejsce dla kobiet bez wzglądu
+              na wiek i życiową rolę. Rozmawiamy o duchowości, relacjach,
+              emocjach, wyzwaniach i marzeniach.
+              <br />
+              <br />
+              Dołącz do naszego grona, otrzymaj zachętę i potrzebne wsparcie.
             </p>
-            <Link href="zenskie" className={styles.btn}>
+            {/* <Link href="zenskie" className={styles.btn}>
               Więcej
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className={`${styles.image} ${styles.womenImage}`}></div>
