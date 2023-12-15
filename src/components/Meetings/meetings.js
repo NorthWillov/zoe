@@ -80,7 +80,7 @@ function Meetings() {
         <div className={`${styles.image} ${styles.wednesdayImage}`}></div>
       </div>
       <Logoline />
-      <div className={styles.meeting}>
+      <div className={styles.meeting} data-testid={"dzieci"} id="dzieci">
         <div className={styles.desc}>
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Dzieci</h3>
@@ -107,7 +107,7 @@ function Meetings() {
         </div>
         <div className={`${styles.image} ${styles.childrenImage}`}></div>
       </div>
-      <div className={styles.meeting}>
+      <div className={styles.meeting} data-testid={"mlodziez"} id="mlodziez">
         <div className={styles.desc}>
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Młodzież</h3>
@@ -120,8 +120,24 @@ function Meetings() {
               chrześcijaństwo.
               <br />
               <br />
-              Zapaszamy Ciebie na spotkania
             </p>
+            <ol style={{ marginLeft: "5%" }}>
+              <li>
+                Razem odkrywamy głębsze znaczenie wiary, budując wspólnotę
+                młodych ludzi w naszym kościele.
+              </li>
+              <li>
+                Młodzieżowe spotkania w naszym kościele to czas radości, nauki i
+                wzajemnego wsparcia w duchowej podróży.
+              </li>
+              <li>
+                Tworzymy przestrzeń dla młodych serc, aby odkrywały sens życia w
+                świetle nauk Chrystusa.
+              </li>
+            </ol>
+            <br />
+            <br />
+            <p>Zapaszamy Ciebie na spotkania</p>
             {/* <Link href="mlodziez" className={styles.btn}>
               Więcej
             </Link> */}
@@ -129,7 +145,7 @@ function Meetings() {
         </div>
         <div className={`${styles.image} ${styles.youngImage}`}></div>
       </div>
-      <div className={styles.meeting}>
+      <div className={styles.meeting} data-testid={"meskie"} id="meskie">
         <div className={styles.desc}>
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Męskie</h3>
@@ -148,7 +164,7 @@ function Meetings() {
         </div>
         <div className={`${styles.image} ${styles.menImage}`}></div>
       </div>
-      <div className={styles.meeting}>
+      <div className={styles.meeting} data-testid={"zenskie"} id="zenskie">
         <div className={styles.desc}>
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Żeńskie</h3>

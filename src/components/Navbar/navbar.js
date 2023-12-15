@@ -167,6 +167,18 @@ const Navbar = () => {
                 <ScrollLink onClick={handleClick} to="sroda">
                   Środa
                 </ScrollLink>
+                <ScrollLink onClick={handleClick} to="dzieci">
+                  Dzieci
+                </ScrollLink>
+                <ScrollLink onClick={handleClick} to="mlodziez">
+                  Młodzież
+                </ScrollLink>
+                <ScrollLink onClick={handleClick} to="meskie">
+                  Męskie
+                </ScrollLink>
+                <ScrollLink onClick={handleClick} to="zenskie">
+                  Żeńskie
+                </ScrollLink>
               </>
             ) : (
               <>
@@ -176,21 +188,21 @@ const Navbar = () => {
                 <a href="#" onClick={() => handleLinkClick("sroda")}>
                   Środa
                 </a>
+                <a href="#" onClick={() => handleLinkClick("dzieci")}>
+                  Dzieci
+                </a>
+                <a href="#" onClick={() => handleLinkClick("mlodziez")}>
+                  Młodzież
+                </a>
+                <a href="#" onClick={() => handleLinkClick("meskie")}>
+                  Męskie
+                </a>
+                <a href="#" onClick={() => handleLinkClick("zenskie")}>
+                  Żeńskie
+                </a>
               </>
             )}
 
-            <Link onClick={handleClick} href="dzieci">
-              Dzieci
-            </Link>
-            <Link onClick={handleClick} href="mlodziez">
-              Młodzież
-            </Link>
-            <Link onClick={handleClick} href="meskie">
-              Męskie
-            </Link>
-            <Link onClick={handleClick} href="zenskie">
-              Żeńskie
-            </Link>
             <Link onClick={handleClick} href="wydarzenia">
               Wydarzenia
             </Link>
