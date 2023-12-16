@@ -7,6 +7,7 @@ import Logoline from "@/components/LogoLine/logoline";
 import Courses from "@/components/Courses/courses";
 import Groups from "@/components/Groups/groups";
 import Footer from "@/components/Footer/footer";
+import Alpha from "@/components/Alpha/alpha";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Logoline />
       <Meetings />
       <Logoline />
+      <Alpha />
       <Courses />
       <Logoline />
       <Groups />
