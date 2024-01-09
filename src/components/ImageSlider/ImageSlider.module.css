@@ -97,9 +97,8 @@
 .contentText {
   width: 70%;
   font-weight: 300;
-  line-height: 14.4px;
   word-wrap: break-word;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .contentMainPageText {
@@ -184,6 +183,7 @@
 
   .contentText {
     width: 100%;
+    font-size: 16px;
     text-align: center;
   }
 

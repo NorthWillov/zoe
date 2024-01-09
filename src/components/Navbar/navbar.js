@@ -244,7 +244,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link onClick={handleClick} href="wsparcie">
-            Wsparcie
+            Wesprzyj nas
           </Link>
         </li>
       </ul>

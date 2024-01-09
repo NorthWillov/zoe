@@ -7,14 +7,12 @@ function Meetings() {
   return (
     <section className={styles.meetings}>
       <div className={styles.meeting} data-testid={"niedziela"} id="niedziela">
-        <div className={styles.desc}>
+        <div style={{ paddingBottom: "0" }} className={styles.desc}>
           <div className={styles.meetingsLogoTitle}>
             <h2 className={styles.meetingsTextTitle}>Spotkania</h2>
           </div>
           <div className={styles.week}>
-            <h3 className={styles.weekTitle}>
-              Niedziela<sup>*regularnie</sup>
-            </h3>
+            <h3 className={styles.weekTitle}>Niedziela</h3>
             <h4 className={styles.weekSubtitle}>
               Nabożeństwa niedzielne rozpoczynamy o godzinie 11:00.
             </h4>
@@ -57,9 +55,7 @@ function Meetings() {
       <div className={styles.meeting} data-testid={"sroda"} id="sroda">
         <div className={styles.desc}>
           <div className={styles.week}>
-            <h3 className={styles.weekTitle}>
-              Środa<sup>*regularnie</sup>
-            </h3>
+            <h3 className={styles.weekTitle}>Środa</h3>
             <h4 className={styles.weekSubtitle}>
               Spotkania środowe rozpoczynamy o godzinie 18:30.
             </h4>
@@ -79,7 +75,6 @@ function Meetings() {
         </div>
         <div className={`${styles.image} ${styles.wednesdayImage}`}></div>
       </div>
-      <Logoline />
       <div className={styles.meeting} data-testid={"dzieci"} id="dzieci">
         <div className={styles.desc}>
           <div className={styles.week}>
@@ -188,25 +183,32 @@ function Meetings() {
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Wydarzenia</h3>
             <p className={styles.weekDesc}>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
+              W Kościele ZOE wierzymy w budowanie silnej wspólnoty poprzez
+              różnorodne wydarzenia. Regularnie organizujemy inspirujące
+              konferencje, koncerty, pouczające spotkania oraz wiele innych
+              niezapomnianych wydarzeń.
+              <br />
+              <br />
+              Jesteśmy pełni entuzjazmu co do tworzenia okazji, które łączą
+              naszą wspólnotę i pomagają nam wspólnie rozwijać naszą wiarę.
+              Dążymy do tego, aby nasze wydarzenia były miejscem, gdzie każdy
+              może poczuć się mile widziany i zainspirowany. Aby dowiedzieć się
+              więcej o nadchodzących wydarzeniach i zobaczyć, co planujemy,
+              kliknij przycisk „Więcej”. Z nami nie przegapisz żadnej okazji do
+              wspólnego doświadczania radości, wzrostu duchowego i nawiązywania
+              nowych relacji!
+              <br />
+              <br />
+              Obecnie nie mamy żadnych zaplanowanych wydarzeń, ale serdecznie
+              zachęcamy do regularnego odwiedzania naszej tej sekcji, aby być na
+              bieżąco z najnowszymi informacjami o nadchodzących konferencjach,
+              spotkaniach, programach i innych wyjątkowych wydarzeniach
+              organizowanych przez nasz Kościół. Dziękujemy za zainteresowanie i
+              zapraszamy do śledzenia aktualizacji!
             </p>
-            <Link href="wydarzenia" className={styles.btn}>
+            {/* <Link href="wydarzenia" className={styles.btn}>
               Więcej
-            </Link>
+            </Link> */}
           </div>
         </div>
         <div className={`${styles.image} ${styles.eventImage}`}></div>

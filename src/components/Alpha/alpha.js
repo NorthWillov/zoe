@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import alfa from "../../assets/alfa.svg";
 import styles from "./alpha.module.css";
 
@@ -27,7 +28,9 @@ function Alpha() {
             wzmocni Go na całe życie!!! <br /> <br />
             Kurs jest darmowy
           </p>
-          <a className={styles.btn}>Zapisz się</a>
+          <Link className={styles.btn} href="alpha">
+            Więcej
+          </Link>
         </div>
         <div className={`${styles.course} ${styles.textRight}`}>
           <h3 className={styles.courseTitle}>Alpha dla Każdego</h3>
@@ -39,7 +42,9 @@ function Alpha() {
             <br /> <br />
             Miło będzie Cię na nich zobaczyć.
           </p>
-          <a className={styles.btn}>Zapisz się</a>
+          <Link className={styles.btn} href="alpha">
+            Więcej
+          </Link>
         </div>
       </div>
     </section>

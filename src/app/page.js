@@ -22,14 +22,9 @@ export default function Home() {
           "ZOE to greckie słowo, które oznacza: życie, życie wieczne. Słowo Boże przynosi życie, Jezus przynosi życie. Jezus jest Twoim, moim, naszym życiem."
         }
       />
-      <Logoline />
       <About />
-      <Logoline />
       <Meetings />
-      <Logoline />
       <Alpha />
-      <Courses />
-      <Logoline />
       <Groups />
       <Footer />
     </main>

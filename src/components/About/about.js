@@ -62,8 +62,6 @@ function About() {
         <div className={styles.imageFirst}></div>
       </div>
 
-      <Logoline />
-
       <div className={styles.main} data-testid={"zbawienie"} id="zbawienie">
         <div className={styles.imageSecond}></div>
         <div
@@ -105,8 +103,6 @@ function About() {
           </div>
         </div>
       </div>
-
-      <Logoline />
 
       <div className={styles.main} data-testid={"corobimy"} id="corobimy">
         <div

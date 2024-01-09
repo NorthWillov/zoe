@@ -9,7 +9,7 @@ import styles from "./CheckoutForm.module.css";
 export default function CheckoutForm() {
   const [loading, setLoading] = useState(false);
   const [input, setInput] = useState({
-    customDonation: Math.round(config.MAX_AMOUNT / config.AMOUNT_STEP),
+    customDonation: 40,
   });
 
   const handleInputChange = (e) =>
@@ -81,7 +81,7 @@ export default function CheckoutForm() {
             type="submit"
             disabled={loading || input.customDonation < 2}
           >
-            Wesprzyj o{" "}
+            Darowizna{" "}
             {formatAmountForDisplay(input.customDonation, config.CURRENCY)}
           </button>
         </form>

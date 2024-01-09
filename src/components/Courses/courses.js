@@ -13,7 +13,7 @@ function Courses() {
             <p className={styles.courseDesc}>
               Wierzymy, że każdy powinien mieć możliwość poznania wiary
               chrześcijańskiej, móc zadać pytania i podzielić się swoim punktem
-              widzenia <br /> - niezależnie od miejsca, w którym się znajduje.
+              widzenia - niezależnie od miejsca, w którym się znajduje.
             </p>
           </div>
 
@@ -30,24 +30,24 @@ function Courses() {
       </div>
       <div className={styles.btns}>
         <div className={styles.btnsContent}>
-          <h4 className={styles.btnDesc}>Find an Alpha near you</h4>
+          <h4 className={styles.btnDesc}>Poszukaj Alpha w pobliżu</h4>
           <a
             target="_blank"
             href="https://polska.alpha.org/sprobuj"
             className={styles.btn}
           >
-            Try Alpha
+            Sprawdź
           </a>
         </div>
         <hr className={styles.line} />
         <div className={styles.btnsContent}>
-          <h4 className={styles.btnDesc}>Learn how to run Alpha</h4>
+          <h4 className={styles.btnDesc}>Jak rozpocząć Alpha</h4>
           <a
             target="_blank"
             href="https://polska.alpha.org/how-to-run-alpha"
             className={styles.btn}
           >
-            Learn How
+            Sprawdź
           </a>
         </div>
       </div>

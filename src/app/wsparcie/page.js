@@ -12,10 +12,10 @@ function DonatePage() {
       <Navbar />
       <ImageSlider
         images={["image6.jpeg"]}
-        titleBold={"Wsparcie"}
+        titleBold={"Wespzyj nas"}
         titleLight={""}
         description={
-          "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+          "Twoje wsparcie pomaga nam kontynuować naszą misję i służyć naszej wspólnocie. Jeśli pragniesz wesprzeć naszą pracę, możesz przekazać darowiznę poprzez poniższy formularz. Każda wpłata, bez względu na wielkość, jest dla nas cenna i pomaga w realizacji naszych celów."
         }
       />
       <section className={styles.desc}>
@@ -24,13 +24,13 @@ function DonatePage() {
           <CheckoutForm />
           <div className={styles.transfer}>
             <h3 className={styles.customFormTitle}>
-              Również możesz wesprzyć nas{" "}
-              <strong>Przelewem Tradycyjnym:</strong>
+              Również możesz wesprzeć nas{" "}
+              <strong>przelewem tradycyjnym:</strong>
             </h3>
             <div className={styles.transferData}>
               <div className={styles.transferDataText}>
                 <h4 className={styles.transferDataTextTitle}>Kościół ZOE</h4>
-                <p className={styles.transferDataTextDesc}>BNP Pariba Bank</p>
+                <p className={styles.transferDataTextDesc}>BNP Paribas Bank</p>
               </div>
               <div className={styles.transferDataText}>
                 <h4 className={styles.transferDataTextTitle}>Numer konta</h4>
@@ -46,7 +46,7 @@ function DonatePage() {
               </div>
             </div>
             <h3 className={styles.customFormTitle}>
-              Dane do <strong>Przelewu Zagranicznego:</strong>
+              Dane do <strong>przelewu zagranicznego:</strong>
             </h3>
             <div className={styles.transferIntData}>
               <div className={styles.transferIntDataText}>
