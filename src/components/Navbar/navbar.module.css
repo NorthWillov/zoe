@@ -31,11 +31,11 @@
   justify-content: space-between;
   margin-left: 20px;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 14px;
+  padding: 3px 0 0;
 }
 
 .logoText span {
-  padding-top: 4px;
   min-width: 100px;
 }
 
@@ -126,12 +126,6 @@
   }
 }
 
-@media only screen and (max-width: 1150px) {
-  .navBarMenu {
-    width: 100%;
-  }
-}
-
 @media only screen and (max-width: 960px) {
   .navBar {
     height: 80px;
@@ -139,6 +133,10 @@
   .logo {
     width: 150px;
     height: auto;
+  }
+  .logoText {
+    font-size: 12px;
+    padding: 0 0 3px;
   }
   .logoText span {
     padding-top: 0;
@@ -207,6 +205,7 @@
   .logoText {
     font-size: 10px;
     margin-left: 10px;
+    padding: 0 0 4px;
   }
   .navBarMenuActive {
     top: 60px;
