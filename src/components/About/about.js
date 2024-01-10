@@ -2,10 +2,8 @@
 
 import React from "react";
 import Image from "next/image";
-
 import logogrey from "../../assets/logogrey.svg";
 import styles from "./about.module.css";
-import Logoline from "../LogoLine/logoline";
 
 function About() {
   return (

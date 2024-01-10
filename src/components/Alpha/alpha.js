@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import alfa from "../../assets/alfa.svg";
+import alfa from "../../assets/alphalogowhite.svg";
 import styles from "./alpha.module.css";
 
 function Alpha() {
   return (
     <section className={styles.main} data-testid={"courses"} id="courses">
       <div className={styles.alfaWrapper}>
+        <h1>KURSY</h1>
         <Image
           className={styles.alfa}
           src={alfa}
