@@ -30,6 +30,18 @@
   width: 47%;
 }
 
+.table th {
+  color: #fff;
+  background-color: #1c1c1c;
+  border: none;
+}
+
+.table td {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
 @media only screen and (max-width: 1500px) {
   .main {
     padding: 112px 5% 125px 5%;

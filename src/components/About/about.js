@@ -84,7 +84,7 @@ function About() {
             </div>
           </div>
           <div className={styles.desc}>
-            <h2 className={styles.title}>Modlitwa zbawienie</h2>
+            <h2 className={styles.title}>Modlitwa zbawienia</h2>
             <p className={styles.text}>
               Możesz otrzymać dar zbawienia, wyznając Bogu, że powierzasz swoje
               życie Jezusowi Chrystusowi. Wiara w Jezusa Chrystusa, wyrażona w

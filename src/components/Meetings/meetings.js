@@ -32,11 +32,11 @@ function Meetings() {
               rodzice mogą oglądać transmisję nabożeństwa na ekranie, a dzieci
               bawią się lub uczą.
               <br /> <br />
-              <strong>Kawiarnia. </strong>- Po nabożeństwie spotykamy się na
+              <strong>Kawiarnia. </strong> Po nabożeństwie spotykamy się na
               kawie, herbacie i ciastku w naszej kawiarni, aby wspólnie spędzić
               czas.
               <br /> <br />
-              <strong>Zaangażuj się.</strong> - Każdej niedzieli nasi
+              <strong>Zaangażuj się.</strong> Każdej niedzieli nasi
               wolontariusze mają pełne ręce roboty. Jeśli chcesz się
               zaangażować, możesz w każdej chwili dołączyć do nich. Wystarczy
               napisać na{" "}

@@ -25,6 +25,10 @@
   text-align: right;
 }
 
+.believesList {
+  list-style: none;
+}
+
 .believesList li {
   margin-bottom: 10px;
 }
