@@ -115,9 +115,8 @@ const ImageSlider = ({
         <div className={styles.contentTextWrapper}>
           {mainPage ? (
             <p className={styles.contentMainPageText}>
-              ZOE to greckie słowo, które oznacza: życie, życie wieczne.
-              <br /> Słowo Boże przynosi życie, Jezus przynosi życie. <br />{" "}
-              Jezus jest Twoim, moim, naszym życiem.
+              ZOE to greckie słowo oznaczające <strong>życie wieczne</strong>,
+              które przynosi nam Jezus. On jest naszym <strong>życiem</strong>.
             </p>
           ) : (
             <p className={styles.contentText}>{description}</p>

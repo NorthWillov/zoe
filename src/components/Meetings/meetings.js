@@ -17,33 +17,33 @@ function Meetings() {
               Nabożeństwa niedzielne rozpoczynamy o godzinie 11:00.
             </h4>
             <p className={styles.weekDesc}>
-              W niedzielę spotykamy się, aby oddać chwałę Bogu, uczcić Jezusa
-              Chrystusa śpiewem i modlitwą, modlić się o zdrowie i nawiązywać
-              relacje z innymi ludźmi. Słuchamy kazania, a w ostatnią niedzielę
-              miesiąca odbywa się Wieczerza Pańska (komunia).
+              W każdą niedzielę spotykamy się, aby oddać chwałę Bogu, uczcić
+              Jezusa Chrystusa śpiewem i modlitwą, modlić się o zdrowie i
+              nawiązywać relacje z innymi ludźmi. Słuchamy kazania, a w ostatnią
+              niedzielę miesiąca odbywa się Wieczerza Pańska (komunia).
               <br /> <br />
-              <strong>Jesteś tu nowy?</strong> Zwróć uwagę na osoby z
-              serduszkami. Pomogą Tobie znaleźć miejsce, odpowiedzą na pytania i
-              zaopiekują się.
+              <strong>Jesteś tu po raz pierwszy?</strong> Zwróć uwagę na osoby z
+              serduszkami – chętnie pomogą Ci znaleźć miejsce, odpowiedzą na
+              pytania i zaopiekują się Tobą.
               <br /> <br />
-              <strong>Dzieci</strong> - W trakcie kazań odbywają się zajęcia
-              Kościoła Dziecięcego w różnych grupach wiekowych 3-15 lat. Dla
-              rodziców z dziećmi w wieku do 3 lat przygotowaliśmy salę opieki. W
-              sali rodzice mogą oglądać transmisję nabożeństwa na ekranie, a
-              dzieci bawić się lub uczyć :)
+              <strong>Dzieci.</strong> W trakcie kazań odbywają się zajęcia
+              Kościoła Dziecięcego w różnych grupach wiekowych (3-15 lat). Dla
+              rodziców z maluchami do 3 lat mamy przygotowaną salę opieki. Tutaj
+              rodzice mogą oglądać transmisję nabożeństwa na ekranie, a dzieci
+              bawią się lub uczą.
               <br /> <br />
-              <strong>Kawiarnia </strong>- Po nabożeństwie spotykamy się na
+              <strong>Kawiarnia. </strong>- Po nabożeństwie spotykamy się na
               kawie, herbacie i ciastku w naszej kawiarni, aby wspólnie spędzić
               czas.
               <br /> <br />
-              <strong>Zaangażuj się</strong> - Każdej niedzieli nasi
+              <strong>Zaangażuj się.</strong> - Każdej niedzieli nasi
               wolontariusze mają pełne ręce roboty. Jeśli chcesz się
               zaangażować, możesz w każdej chwili dołączyć do nich. Wystarczy
               napisać na{" "}
               <span className={styles.email}>wolontariat@kosciolzoe.pl </span>i
               wyrazić chęć pomocy.
               <br /> <br />
-              Bardzo serdecznie zapraszamy.
+              <strong>Bardzo serdecznie zapraszamy.</strong>
             </p>
             {/* <Link href="niedziela" className={styles.btn}>
               Więcej
@@ -60,13 +60,14 @@ function Meetings() {
               Spotkania środowe rozpoczynamy o godzinie 18:30.
             </h4>
             <p className={styles.weekDesc}>
-              W środę spotykamy się, żeby modlić się o najróżniejsze sprawy:
-              Polski, regionu, rodzin ZOE, obecnych na spotkaniu, wydarzenia.
+              W każdą środę gromadzimy się, żeby modlić się o najróżniejsze
+              sprawy: Polskę, region, rodziny ZOE, osoby obecne na spotkaniu,
+              wydarzenia. Uczymy się modlić i studiujemy w Piśmie Świętym ważne
+              życiowe tematy. To dla nas okazja do nauki i duchowego wzrostu.
               <br /> <br />
-              Uczymy się modlić i studiujemy w Piśmie Świętym ważne życiowe
-              tematy.
-              <br /> <br />
-              Bardzo serdecznie zapraszamy.
+              Jeśli szukasz miejsca, gdzie modlitwa i zgłębianie Biblii idą w
+              parze, serdecznie zapraszamy! Dołącz do nas, by wspólnie się
+              wspierać, uczyć i wzajemnie inspirować.
             </p>
             {/* <Link href="sroda" className={styles.btn}>
               Więcej
@@ -80,10 +81,9 @@ function Meetings() {
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Dzieci</h3>
             <p className={styles.weekDesc}>
-              W czasie spotkania Kościoła prowadzone są zajęcia dla dzieci w
-              wieku 4-12 lat w dwóch grupach wiekowych. Podczas zajęć dzieci
-              poznają historie biblijne przedstawiane im w sposób przystępny i
-              ciekawy.
+              W czasie spotkań Kościoła prowadzone są zajęcia dla dzieci w wieku
+              4-12 lat w dwóch grupach wiekowych. Podczas zajęć dzieci poznają
+              historie biblijne przedstawiane im w sposób przystępny i ciekawy.
               <br />
               <br />
               Nauka przeplatana jest z zabawą, poznawaniem Bożej miłości i
@@ -107,16 +107,21 @@ function Meetings() {
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Młodzież</h3>
             <p className={styles.weekDesc}>
-              Nastolatkowie, dwudziestolatkowie na różne sposoby łaćzą się
-              dokoła wspólnych spraw.
+              Nastolatkowie i dwudziestolatkowie, na różne sposoby łączą się
+              dokoła wspólnych spraw. Zjednoczeni, wspierają się w swoich
+              sprawach i wierze, praktykując chrześcijaństwo na co dzień.
               <br />
               <br />
-              Zjednoczeni wspierają sie w swoich sprawach i wierze w praktyczne
-              chrześcijaństwo.
+              Razem odkrywają głębsze znaczenie wiary i budują wspólnotę młodych
+              ludzi w naszym kościele.
               <br />
               <br />
+              Młodzieżowe spotkania to czas radości, nauki i wzajemnego wsparcia
+              w duchowej podróży. Tworzymy przestrzeń dla młodych serc, aby
+              odkrywały sens życia w świetle nauk Chrystusa. Zapraszamy na
+              spotkania!
             </p>
-            <ol style={{ marginLeft: "5%" }}>
+            {/* <ol style={{ marginLeft: "5%" }}>
               <li>
                 Razem odkrywamy głębsze znaczenie wiary, budując wspólnotę
                 młodych ludzi w naszym kościele.
@@ -129,10 +134,10 @@ function Meetings() {
                 Tworzymy przestrzeń dla młodych serc, aby odkrywały sens życia w
                 świetle nauk Chrystusa.
               </li>
-            </ol>
+            </ol> */}
+            {/* <br />
             <br />
-            <br />
-            <p>Zapaszamy Ciebie na spotkania</p>
+            <p>Zapaszamy Ciebie na spotkania</p> */}
             {/* <Link href="mlodziez" className={styles.btn}>
               Więcej
             </Link> */}
@@ -145,11 +150,11 @@ function Meetings() {
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Męskie</h3>
             <p className={styles.weekDesc}>
-              Odkrywamy boży plan dla każdego mężczyzny. Mąż, ojciec, brat, syn
-              to role, które pełnimy na co dzień.
+              Odkrywamy Boży plan dla każdego mężczyzny.
               <br />
               <br />
-              To często spore wyzwania, o których szczerze i wprost rozmawiamy,
+              Mąż, ojciec, brat, syn – są to role, które pełnimy na co dzień. To
+              często spore wyzwania, o których szczerze i wprost rozmawiamy,
               wymieniając się przy tym doświadczeniami i spostrzeżeniami.
             </p>
             {/* <Link href="meskie" className={styles.btn}>
@@ -164,9 +169,9 @@ function Meetings() {
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Żeńskie</h3>
             <p className={styles.weekDesc}>
-              Spotkania dla kobiet to bezpieczne miejsce dla kobiet bez wzglądu
-              na wiek i życiową rolę. Rozmawiamy o duchowości, relacjach,
-              emocjach, wyzwaniach i marzeniach.
+              Spotkania dla kobiet to bezpieczne miejsce dla pań bez względu na
+              wiek i życiową rolę. Rozmawiamy o duchowości, relacjach, emocjach,
+              wyzwaniach i marzeniach.
               <br />
               <br />
               Dołącz do naszego grona, otrzymaj zachętę i potrzebne wsparcie.

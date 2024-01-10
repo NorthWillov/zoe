@@ -30,30 +30,34 @@ function About() {
           </div>
           <div className={styles.desc}>
             <h2 className={styles.title}>Wierzymy w:</h2>
-            <p className={styles.text}>
-              Boga, który jest w trzech postaciach: Ojca, Syna Jezusa Chrystusa
-              i Ducha Świętego.
-              <br /> <br />
-              Pismo Święte, które jest Słowem Bożym, nieomylnym i natchnionym
-              przez Ducha Swiętego
-              <br /> <br />
-              Jezusa Chrystusa, który przyszedł na świat poprzez poczęcie z
-              Ducha Świętego i narodzenie z Marii dziewicy, który umarł na
-              krzyżu dla naszego zbawienia, zmartwychwstał w ciele, wstąpił do
-              nieba i powróci w chwale
-              <br /> <br />
-              Zbawienie z łaski poprzez opamiętanie i wyznanie wiary w
-              zmartwychwstanie Jezusa Chrystusa oraz świadome uznanie Jego jako
-              zbawiciela i władcy
-              <br /> <br />
-              W Wieczerzę Pańską i chrzest przez zanurzenie w wodzie
-              <br /> <br />
-              W chrzest Duchem Świętym i Jego dary duchowe
-              <br /> <br />
-              W święty Kościół, którego głową jest Jezus Chrystus, a ciałem
-              zbawieni wierzący
-              <br /> <br />W uzdrowienie, zmartwychwstanie i życie wieczne.
-            </p>
+            <ul>
+              <li>
+                Boga, który jest w trzech Osobach: Ojca, Syna – Jezusa Chrystusa
+                i Ducha Świętego.
+              </li>
+              <li>
+                Pismo Święte, które jest Słowem Bożym, nieomylnym i natchnionym
+                przez Ducha Świętego.
+              </li>
+              <li>
+                Jezusa Chrystusa, który przyszedł na świat poprzez poczęcie z
+                Ducha Świętego i narodzenie z Marii dziewicy, który umarł na
+                krzyżu dla naszego zbawienia, zmartwychwstał w ciele, wstąpił do
+                nieba i powróci w chwale.
+              </li>
+              <li>
+                Zbawienie z łaski poprzez opamiętanie, wyznanie wiary w
+                zmartwychwstanie Jezusa Chrystusa oraz świadome uznanie Go jako
+                zbawiciela i władcy.
+              </li>
+              <li>W Wieczerzę Pańską i chrzest przez zanurzenie w wodzie.</li>
+              <li>W chrzest Duchem Świętym i Jego dary duchowe.</li>
+              <li>
+                W święty Kościół, którego głową jest Jezus Chrystus, a ciałem
+                zbawieni wierzący.
+              </li>
+              <li>W uzdrowienie, zmartwychwstanie i życie wieczne.</li>
+            </ul>
             {/* <a href="#" className={styles.btn}>
               Lorem
             </a> */}
@@ -82,19 +86,20 @@ function About() {
             </div>
           </div>
           <div className={styles.desc}>
-            <h2 className={styles.title}>Modlitwa Zbawienie</h2>
+            <h2 className={styles.title}>Modlitwa zbawienie</h2>
             <p className={styles.text}>
-              Możesz otrzymać dar zbawienia wyznając Bogu, że powierzasz swoje
-              życie Jezusowi Chrystusowi. <br /> <br />
-              Wiara w Jezusa Chrystusa wyrażona w modlitwie płynącej z Twojego
-              serca gwarantuje zbawienie. <br /> <br />
-              Pomoże Tobie ta modlitwa: <br /> <br />
+              Możesz otrzymać dar zbawienia, wyznając Bogu, że powierzasz swoje
+              życie Jezusowi Chrystusowi. Wiara w Jezusa Chrystusa, wyrażona w
+              modlitwie płynącej z Twojego serca, gwarantuje zbawienie.
+              <br /> <br />
+              <strong>Pomoże Ci ta modlitwa:</strong>
+              <br /> <br />
               Boże, wiem, że grzeszyłem przeciwko Tobie i zasługuję na karę, ale
-              Jezus Chrystus wziął tę karę na siebie. Dlatego wierzę, że moje
-              grzechy odpuściłeś mi. Wierzę, że Jezus Chrystus Twój Syn
-              zmartwychwstał. Jezu zbaw mnie, bądz moim Panem. Ufam Tobie i
+              Jezus Chrystus wziął tę karę na siebie. Dlatego wierzę, że
+              odpuściłeś mi moje grzechy. Wierzę, że Jezus Chrystus, Twój Syn,
+              zmartwychwstał. Jezu, zbaw mnie, bądź moim Panem. Ufam Tobie i
               oddaję Ci całe moje życie. Przyjmuję dar życia wiecznego z Twojej
-              ręki łaski i miłości.
+              ręki, łaski i miłości.
               <br /> <br /> <strong>AMEN</strong>
             </p>
             {/* <a href="#" className={styles.btn}>
@@ -126,23 +131,22 @@ function About() {
             <h2 className={styles.title}>O Kościele</h2>
             <p className={styles.text}>
               Kościół Chrześcijański ZOE to wspólnota ludzi, którzy wyznają
-              swoją miłość do Boga i ludzi przez praktyczne życie
-              chrześcijańskie.
+              swoją miłość do Boga i bliźnich poprzez praktykowanie życia
+              chrześcijańskiego.
               <br />
               <br />
-              Żyjemy ze świadomością, że przez rozumienie Pisma Świętego i
-              postępowanie oparte na tym rozumieniu doświadczamy radości
-              zwycięstw nad trudnościami życia, zaangażowania Boga w nasze
-              życie.
+              Żyjemy ze świadomością, że przez zrozumienie Pisma Świętego i
+              postępowanie oparte na Słowie Bożym doświadczamy radości zwycięstw
+              nad trudnościami oraz zaangażowania Boga w nasze życie.
               <br />
               <br />
-              Nasza radość płynie ze świadomości, że każdy może doświadczyć
-              miłości i zbawienia w Jezusie Panu, i że Bóg nie ma wybrańców
-              kiedy człowiek potrzebuje pomocy.
+              Nasza radość płynie z przekonania, że każdy może doświadczyć
+              miłości i zbawienia w Jezusie Panu. Bóg kocha każdego człowieka i
+              nie ma wybrańców, kiedy ktoś potrzebuje pomocy.
               <br />
               <br />
-              Kościół Chrześcijański ZOE to miejsce gdzie znajdziesz szczerą
-              miłość, troskę o Rodzinę, swój Dom.
+              Kościół Chrześcijański ZOE to miejsce, gdzie znajdziesz swój Dom –
+              szczere relacje, miłość i troskę o Rodzinę.
             </p>
             {/* <a href="#" className={styles.btn}>
               Lorem

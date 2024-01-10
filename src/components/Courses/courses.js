@@ -13,7 +13,7 @@ function Courses() {
             <p className={styles.courseDesc}>
               Wierzymy, że każdy powinien mieć możliwość poznania wiary
               chrześcijańskiej, móc zadać pytania i podzielić się swoim punktem
-              widzenia - niezależnie od miejsca, w którym się znajduje.
+              widzenia – niezależnie od miejsca, w którym się znajduje.
             </p>
           </div>
 

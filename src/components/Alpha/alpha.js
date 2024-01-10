@@ -20,28 +20,31 @@ function Alpha() {
         <div className={styles.course}>
           <h3 className={styles.courseTitle}>Alpha dla Par</h3>
           <p className={styles.courseDesc}>
-            To 5 spotkań organizowanych w formie randki z miłą i romantyczną
-            atmosferą. Każda z par ma swoją intymną przestrzeń dla siebie, gdzie
-            jest ugoszczona przez gospodarzy. Dzięki formie spotkań, para
-            poznaje się jeszcze lepiej poprzez dyskusje między sobą na ważne
-            tematy. Te kilka godzin spotkań, wniesie wartość dodaną do związku i
-            wzmocni Go na całe życie!!! <br /> <br />
-            Kurs jest darmowy
+            To 5 wyjątkowych spotkań, które przenoszą formę randki na wyższy
+            poziom, oferując miłą i romantyczną atmosferę. Każda para ma swój
+            prywatny zakątek, gościnnie przygotowany przez naszych gospodarzy.
+            Dzięki temu unikalnemu podejściu, para ma okazję nie tylko lepiej
+            się poznać, ale także prowadzić głębokie rozmowy na istotne tematy.
+            Te kilka godzin spędzonych razem wniesie wartość dodaną do waszego
+            związku, wzmacniając go na całe życie! Kurs jest całkowicie
+            bezpłatny.
           </p>
           <Link className={styles.btn} href="alpha">
             Więcej
           </Link>
         </div>
-        <div className={`${styles.course} ${styles.textRight}`}>
-          <h3 className={styles.courseTitle}>Alpha dla Każdego</h3>
-          <p className={styles.courseDesc}>
-            Kurs Alpha to seria 10 niezobowiązujących spotkań, podczas których
-            poszerzana jest wiedza z zakresu wiary chrześcijańskiej. Jest to
-            czas kiedy przy wspólnym posiłku, w przyjaznej atmosferze poruszane
-            są tematy bliskie każdemu z nas.
-            <br /> <br />
-            Miło będzie Cię na nich zobaczyć.
-          </p>
+        <div className={styles.course}>
+          <div>
+            <h3 className={styles.courseTitle}>Alpha dla Każdego</h3>
+            <p className={styles.courseDesc}>
+              To fascynująca seria 10 niezobowiązujących spotkań, w trakcie
+              których rozszerzamy wiedzę z zakresu wiary chrześcijańskiej. Jest
+              to czas, kiedy przy wspólnym posiłku, w przyjaznej atmosferze
+              poruszane są tematy bliskie każdemu z nas. Miło będzie Cię na nich
+              zobaczyć. Kurs jest całkowicie bezpłatny.
+            </p>
+          </div>
+
           <Link className={styles.btn} href="alpha">
             Więcej
           </Link>
