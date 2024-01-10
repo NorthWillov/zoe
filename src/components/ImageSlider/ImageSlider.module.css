@@ -107,6 +107,10 @@
   width: 50%;
 }
 
+.hidden {
+  opacity: 0;
+}
+
 .contentText {
   width: 70%;
   font-weight: 300;

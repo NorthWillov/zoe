@@ -71,16 +71,16 @@ const ImageSlider = ({
       )}
 
       <div className={styles.icons}>
-        {pathname !== "/wsparcie" && (
-          <div
-            style={{ marginBottom: "-15px" }}
-            className={`${styles.iconWrapper} ${styles.animated}`}
-          >
-            <Link href={"wsparcie"}>
-              <HeartIcon />
-            </Link>
-          </div>
-        )}
+        <div
+          style={{ marginBottom: "-15px" }}
+          className={`${styles.iconWrapper} ${styles.animated} ${
+            pathname === "/wsparcie" ? styles.hidden : ""
+          }`}
+        >
+          <Link href={"wsparcie"}>
+            <HeartIcon />
+          </Link>
+        </div>
 
         <div style={{ marginBottom: "-10px" }} className={styles.iconWrapper}>
           <a href="https://www.facebook.com/kosciolzoe" target="_blank">
