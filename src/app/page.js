@@ -26,6 +26,7 @@ export default function Home() {
       <About />
       <Meetings />
       <Alpha />
+      <Courses />
       <Groups />
       <Contact />
       <Footer />
