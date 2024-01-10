@@ -223,6 +223,11 @@ const Navbar = () => {
                 Grupy Domowe
               </ScrollLink>
             </li>
+            <li>
+              <ScrollLink onClick={handleClick} to="contact">
+                Kontakt
+              </ScrollLink>
+            </li>
           </>
         ) : (
           <>
@@ -236,14 +241,14 @@ const Navbar = () => {
                 Grupy Domowe
               </a>
             </li>
+            <li>
+              <a href="#" onClick={() => handleLinkClick("contact")}>
+                Kontakt
+              </a>
+            </li>
           </>
         )}
 
-        {/* <li>
-          <ScrollLink onClick={handleClick} to="contact">
-            Kontakt
-          </ScrollLink>
-        </li> */}
         <li>
           <Link onClick={handleClick} href="wsparcie">
             Wesprzyj nas

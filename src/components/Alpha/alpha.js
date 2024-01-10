@@ -1,10 +1,23 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Modal from "../Modal/modal";
 import alfa from "../../assets/alphalogowhite.svg";
 import styles from "./alpha.module.css";
 
 function Alpha() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [info, setInfo] = useState({ phone: "0", email: "@" });
+
+  const handleModalToggle = (info) => {
+    setIsModalOpen(!isModalOpen);
+    if (info) {
+      setInfo(info);
+    }
+  };
+
   return (
     <section className={styles.main} data-testid={"courses"} id="courses">
       <div className={styles.alfaWrapper}>
@@ -30,9 +43,17 @@ function Alpha() {
             związku, wzmacniając go na całe życie! Kurs jest całkowicie
             bezpłatny.
           </p>
-          <Link className={styles.btn} href="alpha">
-            Więcej
-          </Link>
+          <button
+            onClick={() =>
+              handleModalToggle({
+                phone: "507 038 367",
+                email: "aphadlapar@kosciolzoe.pl",
+              })
+            }
+            className={styles.btn}
+          >
+            Zapisz się
+          </button>
         </div>
         <div className={styles.course}>
           <div>
@@ -46,11 +67,25 @@ function Alpha() {
             </p>
           </div>
 
-          <Link className={styles.btn} href="alpha">
-            Więcej
-          </Link>
+          <button
+            onClick={() =>
+              handleModalToggle({
+                phone: "507 038 367",
+                email: "apha@kosciolzoe.pl",
+              })
+            }
+            className={styles.btn}
+          >
+            Zapisz się
+          </button>
         </div>
       </div>
+      <Modal
+        isOpen={isModalOpen}
+        onClose={handleModalToggle}
+        phone={info.phone}
+        email={info.email}
+      />
     </section>
   );
 }

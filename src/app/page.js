@@ -8,6 +8,7 @@ import Courses from "@/components/Courses/courses";
 import Groups from "@/components/Groups/groups";
 import Footer from "@/components/Footer/footer";
 import Alpha from "@/components/Alpha/alpha";
+import Contact from "@/components/Contact/contact";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Meetings />
       <Alpha />
       <Groups />
+      <Contact />
       <Footer />
     </main>
   );

@@ -1,113 +1,101 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import styles from "./page.module.css";
+import Modal from "@/components/Modal/modal";
 import ImageSlider from "@/components/ImageSlider/ImageSlider";
 import Navbar from "@/components/Navbar/navbar";
+import Link from "next/link";
 import Footer from "@/components/Footer/footer";
+import image from "../../assets/wydarzenia.jpeg";
+import Image from "next/image";
 
 function Events() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [info, setInfo] = useState({ phone: "0", email: "@" });
+
+  const handleModalToggle = (info) => {
+    setIsModalOpen(!isModalOpen);
+    if (info) {
+      setInfo(info);
+    }
+  };
+
   return (
     <main className={styles.main}>
       <Navbar />
+      <Modal
+        isOpen={isModalOpen}
+        onClose={handleModalToggle}
+        phone={info.phone}
+        email={info.email}
+      />
       <ImageSlider
         images={["image12.jpeg"]}
         titleBold={"Wydarzenia"}
         titleLight={""}
         description={
-          "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+          "W Kościele ZOE regularnie organizujemy różnorodne wydarzenia, takie jak konferencje, koncerty i spotkania. Chcemy tworzyć inspirujące okazje, które łączą naszą wspólnotę i wspierają rozwój duchowy. Dołącz do nas, aby doświadczyć radości, wzrostu duchowego i nowych relacji!"
         }
       />
+      <h2 className={styles.title}>Kursy Alfa - ruszają 15.01.2024</h2>
+
       <section className={styles.desc}>
         <div className={styles.mainGroups}>
-          <h2 className={styles.title}>
-            <strong>Lorem Ipsum!</strong> Lorem
-          </h2>
           <div className={styles.group}>
+            <h3 className={styles.courseTitle}>Alpha dla Par</h3>
             <p className={styles.groupText}>
-              <strong>Lorem ipsum dolor sit amet </strong>
-              <br />
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
+              To 5 wyjątkowych spotkań, które przenoszą formę randki na wyższy
+              poziom, oferując miłą i romantyczną atmosferę. Każda para ma swój
+              prywatny zakątek, gościnnie przygotowany przez naszych gospodarzy.
+              Dzięki temu unikalnemu podejściu, para ma okazję nie tylko lepiej
+              się poznać, ale także prowadzić głębokie rozmowy na istotne
+              tematy. Te kilka godzin spędzonych razem wniesie wartość dodaną do
+              waszego związku, wzmacniając go na całe życie! Kurs jest
+              całkowicie bezpłatny.
             </p>
+            <button
+              onClick={() =>
+                handleModalToggle({
+                  phone: "507 038 367",
+                  email: "aphadlapar@kosciolzoe.pl",
+                })
+              }
+              className={styles.btn}
+            >
+              Zapisz się
+            </button>
           </div>
           <div className={styles.group}>
+            <h3 className={styles.courseTitle}>Alpha dla Każdego</h3>
             <p className={styles.groupText}>
-              <strong>Lorem ipsum dolor sit amet </strong>
-              <br />
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
+              To fascynująca seria 10 niezobowiązujących spotkań, w trakcie
+              których rozszerzamy wiedzę z zakresu wiary chrześcijańskiej. Jest
+              to czas, kiedy przy wspólnym posiłku, w przyjaznej atmosferze
+              poruszane są tematy bliskie każdemu z nas. Miło będzie Cię na nich
+              zobaczyć. Kurs jest całkowicie bezpłatny.
             </p>
-          </div>
-          <div className={styles.group}>
-            <p className={styles.groupText}>
-              <strong>Lorem ipsum dolor sit amet </strong>
-              <br />
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
-            </p>
+            <button
+              onClick={() =>
+                handleModalToggle({
+                  phone: "507 038 367",
+                  email: "apha@kosciolzoe.pl",
+                })
+              }
+              className={styles.btn}
+            >
+              Zapisz się
+            </button>
           </div>
         </div>
         <div className={styles.secondGroups}>
-          <div className={styles.map}>SOME PICTURE</div>
-          <div className={styles.group}>
-            <p className={styles.groupText}>
-              <strong>Lorem ipsum dolor sit amet </strong>
-              <br />
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat. Duis autem vel eum iriure dolor in hendrerit in
-              vulputate velit esse molestie consequat, vel illum dolore eu
-              feugiat nulla facilisis at vero eros et accumsan et iusto odio
-              dignissim qui blandit praesent luptatum zzril delenit augue duis
-              dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, cons
-              ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
-              ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad
-              minim veniam, quis nostrud exerci tation ullamcorper suscipit
-              lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum
-              dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
-              nibh euismod tincidunt ut laoreet dolore{" "}
-            </p>
-          </div>
+          <Image
+            className={styles.img}
+            src={image}
+            alt="kursy"
+            width="auto"
+            height="auto"
+          />
         </div>
       </section>
       <Footer />

@@ -6,47 +6,74 @@
 .desc {
   background-color: #fff;
   color: #000;
-  padding-top: 112px;
-  padding-bottom: 125px;
+  padding: 112px 7% 125px 7%;
   display: flex;
   justify-content: space-around;
 }
 
 .mainGroups {
+  width: 55%;
+}
+
+.secondGroups {
+  width: 45%;
 }
 
 .title {
   font-size: 46px;
   font-weight: 300;
   text-transform: uppercase;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 100px 0 0 0;
 }
 
 .group {
   max-width: 694px;
-  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .groupText {
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
 }
 
 .map {
   background-color: lightgrey;
+  overflow: hidden;
   width: 698px;
-  height: 471px;
+  height: 460px;
+}
+
+.courseTitle {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
   text-align: center;
-  line-height: 471px;
+  line-height: 36px;
+  width: 163px;
+  color: #fff;
+  height: 36px;
+  background-color: #16b8f3;
+  border: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1500px) {
-  .desc {
-    align-items: center;
-  }
-  .map {
-    width: 470px;
-    height: 470px;
-  }
+
   .group {
     max-width: 470px;
   }
@@ -56,6 +83,10 @@
   .desc {
     flex-direction: column;
     padding: 112px 5% 125px 5%;
+  }
+  .mainGroups {
+    width: 100%;
+    margin-bottom: 100px;
   }
   .secondGroups {
     width: 100%;
@@ -67,7 +98,7 @@
   }
   .map {
     width: 100%;
-    height: 470px;
+    height: 250px;
     margin-top: 60px;
   }
 }

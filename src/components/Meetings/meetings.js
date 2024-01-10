@@ -206,18 +206,10 @@ function Meetings() {
               kliknij przycisk „Więcej”. Z nami nie przegapisz żadnej okazji do
               wspólnego doświadczania radości, wzrostu duchowego i nawiązywania
               nowych relacji!
-              <br />
-              <br />
-              Obecnie nie mamy żadnych zaplanowanych wydarzeń, ale serdecznie
-              zachęcamy do regularnego odwiedzania naszej tej sekcji, aby być na
-              bieżąco z najnowszymi informacjami o nadchodzących konferencjach,
-              spotkaniach, programach i innych wyjątkowych wydarzeniach
-              organizowanych przez nasz Kościół. Dziękujemy za zainteresowanie i
-              zapraszamy do śledzenia aktualizacji!
             </p>
-            {/* <Link href="wydarzenia" className={styles.btn}>
+            <Link href="wydarzenia" className={styles.btn}>
               Więcej
-            </Link> */}
+            </Link>
           </div>
         </div>
         <div className={`${styles.image} ${styles.eventImage}`}></div>
