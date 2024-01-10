@@ -73,7 +73,7 @@ const ImageSlider = ({
       <div className={styles.icons}>
         {pathname !== "/wsparcie" && (
           <div
-            style={{ marginBottom: "-20px" }}
+            style={{ marginBottom: "-15px" }}
             className={`${styles.iconWrapper} ${styles.animated}`}
           >
             <Link href={"wsparcie"}>
@@ -114,6 +114,7 @@ const ImageSlider = ({
           {mainPage ? (
             <p className={styles.contentMainPageText}>
               ZOE to greckie słowo oznaczające <strong>życie wieczne</strong>,
+              <br />
               które przynosi nam Jezus. On jest naszym <strong>życiem</strong>.
             </p>
           ) : (
