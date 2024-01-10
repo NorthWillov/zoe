@@ -179,6 +179,9 @@ const Navbar = () => {
                 <ScrollLink onClick={handleClick} to="zenskie">
                   Żeńskie
                 </ScrollLink>
+                <ScrollLink onClick={handleClick} to="wydarzenia">
+                  Wydarzenia
+                </ScrollLink>
               </>
             ) : (
               <>
@@ -200,12 +203,11 @@ const Navbar = () => {
                 <a href="#" onClick={() => handleLinkClick("zenskie")}>
                   Żeńskie
                 </a>
+                <a href="#" onClick={() => handleLinkClick("wydarzenia")}>
+                  Wydarzenia
+                </a>
               </>
             )}
-
-            <Link onClick={handleClick} href="wydarzenia">
-              Wydarzenia
-            </Link>
           </div>
         </li>
 

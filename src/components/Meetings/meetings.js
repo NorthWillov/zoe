@@ -183,7 +183,11 @@ function Meetings() {
         </div>
         <div className={`${styles.image} ${styles.womenImage}`}></div>
       </div>
-      <div className={styles.meeting}>
+      <div
+        className={styles.meeting}
+        data-testid={"wydarzenia"}
+        id="wydarzenia"
+      >
         <div className={styles.desc}>
           <div className={styles.week}>
             <h3 className={styles.weekTitle}>Wydarzenia</h3>
