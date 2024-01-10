@@ -104,9 +104,7 @@ const ImageSlider = ({
       </div>
       <div className={styles.content}>
         {mainPage ? (
-          <h1 className={styles.contentMainPageTitle}>
-            Kościół Chrześcijański ZOE Trójmiasto <br /> Kościół Ewangeliczny
-          </h1>
+          <h1 className={styles.contentMainPageTitle}>Kościół Ewangeliczny</h1>
         ) : (
           <h1 className={styles.contentTitle}>
             <strong>{titleBold}</strong> {titleLight}
@@ -124,6 +122,7 @@ const ImageSlider = ({
         </div>
       </div>
       <div className={styles.logoWrapper}>
+        <h1>Kościół Chrześcijański ZOE Trójmiasto</h1>
         <Image
           className={styles.logo}
           src={logomain}

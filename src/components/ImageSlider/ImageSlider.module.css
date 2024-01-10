@@ -47,6 +47,19 @@
   top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 70%;
+  text-align: center;
+}
+.logoWrapper h1 {
+  font-weight: 300;
+  font-size: 35px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
 }
 
 .icons {
@@ -207,6 +220,10 @@
   }
   .logoWrapper {
     top: 38%;
+    width: 60%;
+  }
+  .logoWrapper h1 {
+    font-size: 16px;
   }
 }
 

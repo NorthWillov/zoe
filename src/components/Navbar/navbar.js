@@ -237,11 +237,11 @@ const Navbar = () => {
           </>
         )}
 
-        <li>
+        {/* <li>
           <ScrollLink onClick={handleClick} to="contact">
             Kontakt
           </ScrollLink>
-        </li>
+        </li> */}
         <li>
           <Link onClick={handleClick} href="wsparcie">
             Wesprzyj nas

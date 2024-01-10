@@ -30,7 +30,7 @@ function About() {
           </div>
           <div className={styles.desc}>
             <h2 className={styles.title}>Wierzymy w:</h2>
-            <ul>
+            <ul className={styles.believesList}>
               <li>
                 Boga, który jest w trzech Osobach: Ojca, Syna – Jezusa Chrystusa
                 i Ducha Świętego.
