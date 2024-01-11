@@ -19,7 +19,6 @@ const ImageSlider = ({
   mainPage,
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
   const pathname = usePathname();
 
   useEffect(() => {
