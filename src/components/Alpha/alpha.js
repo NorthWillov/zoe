@@ -46,7 +46,7 @@ function Alpha() {
           <button
             onClick={() =>
               handleModalToggle({
-                phone: "507 038 367",
+                phone: "515 901 819",
                 email: "aphadlapar@kosciolzoe.pl",
               })
             }
