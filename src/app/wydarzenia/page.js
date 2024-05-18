@@ -8,6 +8,7 @@ import Navbar from "@/components/Navbar/navbar";
 import Link from "next/link";
 import Footer from "@/components/Footer/footer";
 import image from "../../assets/wydarzenia.jpeg";
+import kaznodzieja from "../../assets/kaznodzieja.jpg";
 import Image from "next/image";
 
 function Events() {
@@ -38,6 +39,38 @@ function Events() {
           "W Kościele ZOE regularnie organizujemy różnorodne wydarzenia, takie jak konferencje, koncerty i spotkania. Chcemy tworzyć inspirujące okazje, które łączą naszą wspólnotę i wspierają rozwój duchowy. Dołącz do nas, aby doświadczyć radości, wzrostu duchowego i nowych relacji!"
         }
       />
+      <h2 className={styles.title}>
+        Zapraszamy na niezwykłe spotkanie z{" "}
+        <strong>Kaznodzieją z karabinem!</strong>{" "}
+      </h2>
+
+      <section className={styles.desc}>
+        <div className={styles.mainGroups}>
+          <div className={styles.group}>
+            <p className={styles.groupText}>
+              Już <strong>2 czerwca o 19:00</strong> Sam Childers odwiedzi
+              kościół ZOE.
+              <br /> <br />
+              <strong>Sam Childers</strong>, czyli Kaznodzieja z karabinem, to
+              amerykański aktywista społeczny, który był niegdyś członkiem gangu
+              motocyklowego. Założył fundację Angels of East Africa, której
+              celem jest ratowanie dzieci w Południowym Sudanie i Ugandzie.
+              <br /> <br />
+              Nie możesz przegapić tego wydarzenia! Do zobaczenia!
+            </p>
+          </div>
+        </div>
+        <div className={styles.secondGroups}>
+          <Image
+            className={styles.img}
+            src={kaznodzieja}
+            alt="kursy"
+            width="auto"
+            height="auto"
+          />
+        </div>
+      </section>
+
       <h2 className={styles.title}>Kursy Alfa - ruszają 15.01.2024</h2>
 
       <section className={styles.desc}>
